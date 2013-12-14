@@ -12,7 +12,7 @@ import ch.rgw.tools.VersionInfo;
 
 public class LabOrder extends PersistentObject implements Comparable<LabOrder> {
 	
-	public static final String FLD_USER = "user"; //$NON-NLS-1$
+	public static final String FLD_USER = "username"; //$NON-NLS-1$
 	public static final String FLD_MANDANT = "mandant"; //$NON-NLS-1$
 	public static final String FLD_PATIENT = "patient"; //$NON-NLS-1$
 	public static final String FLD_ITEM = "item"; //$NON-NLS-1$
@@ -54,15 +54,15 @@ public class LabOrder extends PersistentObject implements Comparable<LabOrder> {
 			"lastupdate BIGINT," + //$NON-NLS-1$
 			"deleted CHAR(1) default '0'," + //$NON-NLS-1$
 			
-			"user VARCHAR(128)," + //$NON-NLS-1$
-			"mandant VARCHAR(128)," + //$NON-NLS-1$
-			"patient VARCHAR(128)," + //$NON-NLS-1$
-			"item VARCHAR(128)," + //$NON-NLS-1$
-			"result VARCHAR(128)," + //$NON-NLS-1$
-			"orderid VARCHAR(128)," + //$NON-NLS-1$
-			"groupname VARCHAR(255)," + //$NON-NLS-1$
-			"time VARCHAR(24)," + //$NON-NLS-1$
-			"state CHAR(1)" + //$NON-NLS-1$		
+			FLD_USER +" VARCHAR(128)," + //$NON-NLS-1$
+			FLD_MANDANT + " VARCHAR(128)," + //$NON-NLS-1$
+			FLD_PATIENT + " VARCHAR(128)," + //$NON-NLS-1$
+			FLD_ITEM + " VARCHAR(128)," + //$NON-NLS-1$
+			FLD_RESULT + " VARCHAR(128)," + //$NON-NLS-1$
+			FLD_ORDERID + " VARCHAR(128)," + //$NON-NLS-1$
+			FLD_GROUPNAME + " VARCHAR(255)," + //$NON-NLS-1$
+			FLD_TIME +" VARCHAR(24)," + //$NON-NLS-1$
+			FLD_STATE + " CHAR(1)" + //$NON-NLS-1$		
 			");" + //$NON-NLS-1$
 			"CREATE INDEX laborder1 ON " + TABLENAME + " (" + FLD_TIME + ");" + //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
 			"CREATE INDEX laborder2 ON " + TABLENAME + " (" + FLD_MANDANT + ");" + //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
