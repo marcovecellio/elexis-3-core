@@ -43,6 +43,7 @@
   <module>ch.elexis.core.ui.p2</module>
   <module>ch.elexis.core.ui.p2.feature</module>
   <module>ch.elexis.core.ui.importer.div</module>
+  <module>org.iatrix.help.wiki</module>
   <!-- now follow the unit tests in a more or less logical order -->
   <module>ch.rgw.utility</module>
   <module>ch.rgw.utility.tests</module>
