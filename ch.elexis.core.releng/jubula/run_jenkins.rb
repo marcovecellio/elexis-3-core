@@ -59,10 +59,6 @@ jubula = JubulaRun.new(:portNumber => 60000 + (Process.pid % 1000),
 wsDir = "#{jubula.workspace}/test-ws"
 FileUtils.rm_rf(wsDir, :verbose => true, :noop => DryRun)
 
-def save_images(destination = File.join(WORKSPACE, 'my-screenshots'))
-  FileUtils.mv(File.join(jubula.instDest, 'screenshots'), destination, :verbose => true, :noop => DryRun)
-end
-
 def installArtikelStamm(jubula)
   stamm = File.expand_path(File.join(File.dirname(__FILE__), 'artikelstamm_first_v2.xml'))
   FileUtils.makedirs(jubula.dataDir, :verbose => true, :noop => DryRun)
@@ -81,8 +77,8 @@ def run_upgrade_local_core_and_remote_base(jubula, label)
   res = true
   ENV['TEST_UDV_SW_MUST_UPGRADE'] = 'true' # we want installing all SW-features to succeed
   jubula.cleanup_from_old_runs
-  installArtikelStamm(jubula)
   jubula.installFromZip
+  installArtikelStamm(jubula)
   jubula.cleanDemoDb unless @hasDemoDb
   jubula.genWrapper
   jubula.prepareRcpSupport

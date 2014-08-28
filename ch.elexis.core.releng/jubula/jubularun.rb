@@ -395,14 +395,21 @@ public
 
   def saveImages(dest = @testResults)
     FileUtils.makedirs(dest)
-    puts "Would save images/htm/log to #{dest}" if DryRun
-    (Dir.glob("**/*shot*/*.png")+Dir.glob("**/*.log")+Dir.glob("**/*htm")+Dir.glob(File.join(@dataDir, '*.log'))).each{
+    puts "Would save images/htm/log and screenshots to #{dest}" if DryRun
+    (Dir.glob("**/*.log")+Dir.glob("**/*htm")+Dir.glob(File.join(@dataDir, '*.log'))).each{
       |x|
           next if /images/.match(x)
           next if /plugins/.match(x)
           next if /#{File.basename(@testResults)}/.match(x)
           FileUtils.cp(x, dest, :verbose => true, :noop => DryRun)
     }
+    if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
+      Dir.glob("**/screenshots").each { # only for MacOSX where the screenshots
+        |x|
+          next if x.index(dest)
+          FileUtils.mv(x, dest, :verbose => true, :noop => DryRun)
+      }
+    end
   end
 
 end
