@@ -60,23 +60,20 @@ wsDir = "#{jubula.workspace}/test-ws"
 FileUtils.rm_rf(wsDir, :verbose => true, :noop => DryRun)
 
 def save_images(destination = File.join(WORKSPACE, 'my-screenshots'))
-  Dir.glob("**/*shot*/*.png").each{
-    |x|
-        next if /images/.match(x)
-        next if /plugins/.match(x)
-        next if /#{File.basename(destination)}/.match(x)
-        FileUtils.cp(x, "#{destination}", :verbose => true, :noop => DryRun)
-  }
+  FileUtils.mv(File.join(jubula.instDest, 'screenshots'), destination, :verbose => true, :noop => DryRun)
 end
 
 def installArtikelStamm(jubula)
   stamm = File.expand_path(File.join(File.dirname(__FILE__), 'artikelstamm_first_v2.xml'))
-  ENV['TEST_UDV_ARTIKEL_STAMM'] = stamm
   FileUtils.makedirs(jubula.dataDir, :verbose => true, :noop => DryRun)
   FileUtils.makedirs(jubula.testResults, :verbose => true, :noop => DryRun)
   FileUtils.cp(stamm, jubula.testResults, :verbose => true, :noop => DryRun)
   if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os']) # MacOSX seems to set the file dialog to its home directory
     FileUtils.cp(stamm, Dir.home, :verbose => true, :noop => DryRun)
+    jubula.getInfoForExe
+    wohin = File.expand_path(File.join(jubula.instDest, 'Elexis3.app/Contents/MacOS'))
+    wohin = File.expand_path(File.dirname(jubula.exeFile))
+    FileUtils.cp(stamm, wohin, :verbose => true, :noop => DryRun)
   end
 end
 
@@ -98,18 +95,19 @@ def run_upgrade_local_core_and_remote_base(jubula, label)
   jubula.checkOutcome(res, label)
 end
 
+ONLY_FULLTEST=false
 def run_fulltest(jubula, label)
   installArtikelStamm(jubula)
   jubula.useH2(Dir.pwd)
-  jubula.patchXML
-  jubula.rmTestcases  # only if using h2
-  jubula.loadTestcases    # only if using h2
+  jubula.patchXML unless ONLY_FULLTEST
+  jubula.rmTestcases unless ONLY_FULLTEST # only if using h2
+  jubula.loadTestcases  unless ONLY_FULLTEST # only if using h2
   res = jubula.runOneTestcase(label, 15)
   jubula.saveImages
   jubula.checkOutcome(res, label)
   # TODO: Check for other *.jubula*.xml files to execute as TestCases, eg. Omnivore, KG-Iatrix
 end
 
-run_upgrade_local_core_and_remote_base(jubula, 'TST_UPGRADE')
+run_upgrade_local_core_and_remote_base(jubula, 'TST_UPGRADE') unless ONLY_FULLTEST
 run_fulltest(jubula, 'FULLTEST')
 

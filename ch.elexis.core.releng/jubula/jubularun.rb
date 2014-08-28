@@ -123,7 +123,6 @@ public
       raise "Could not find an exefile using #{pathname}" unless File.exists?(@exeFile)
     end
     @plugins_dir = File.join(@instDest, 'plugins')
-    puts "self #{self.inspect}"
     if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
       @plugins_dir = File.expand_path(File.join(@exeFile, '..', '..', '..', 'plugins'))
     end
@@ -219,7 +218,7 @@ public
       |line|
         needsJubulaRcpSupport = false if /^osgi.bundles=/.match(line) and /#{rcpStart}/.match(line)
     }   
-    puts "#{File.expand_path(ini_name)}: #{needsJubulaRcpSupport ? ' Will patch to add' : ' Already patched to'} start " + jubula_jar
+    puts "#{File.expand_path(ini_name)}: #{needsJubulaRcpSupport ? ' Will patch to add' : ' Already patched to'} start " + rcpStart
     if needsJubulaRcpSupport
       FileUtils.cp(ini_name, ini_name + '.bak', :verbose => true);
       found = false
