@@ -331,6 +331,7 @@ public
   def stopAgent(sleepTime = 3)
     cmd = adaptCmdForMacOSx("#{JubulaOptions::jubulaHome}/server/stopautagent")
     system("#{cmd} -p #{@portNumber} -stop", @@myFail)
+    system("killall -9 autagent", true) if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
     sleep(sleepTime)
   end
 
@@ -395,14 +396,18 @@ public
 
   def saveImages(dest = @testResults)
     FileUtils.makedirs(dest)
-    puts "Would save images/htm/log to #{dest}" if DryRun
-    (Dir.glob("**/*shot*/*.png")+Dir.glob("**/*.log")+Dir.glob("**/*htm")+Dir.glob(File.join(@dataDir, '*.log'))).each{
+    puts "Would save images/htm/log and screenshots to #{dest}" if DryRun
+    (Dir.glob("**/*shot*/*.png")+Dir.glob("**/*.log")+Dir.glob("**/*htm")+
+        Dir.glob(File.join(@dataDir, '*.log'))+Dir.glob(File.join(Dir.home, 'elexis', 'logs', '*.log'))).each{
       |x|
           next if /images/.match(x)
           next if /plugins/.match(x)
           next if /#{File.basename(@testResults)}/.match(x)
           FileUtils.cp(x, dest, :verbose => true, :noop => DryRun)
     }
+    if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
+      FileUtils.cp_r(File.join(File.dirname(@exeFile),'screenshots'), @testResults, :preserve => true, :verbose => true, :noop => DryRun)
+    end
   end
 
 end
