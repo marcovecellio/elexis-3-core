@@ -318,11 +318,6 @@ public
     @@nrRun += 1
     log = "#{@testResults}/test-console-#{@@nrRun}.log"
     cmd = "#{JubulaOptions::jubulaHome}/server/autrun --workingdir #{@testResults} -rcp --kblayout #{@kblayout} -i #{@autid} --exec #{@wrapper} --generatename true --autagentport #{@portNumber}"
-    if WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os'])
-      cmd = "start #{cmd}"
-    else
-      cmd += " 2>&1 | tee #{log} &"
-    end
     res = system(cmd)
     if !res then puts "failed. exiting"; exit(3); end
       sleep(sleepTime)
@@ -341,9 +336,13 @@ public
 
   def install_logger_for_windows
     logger_bat = nil
+	FileUtils.makedirs(testResults)
     logger_log = "#{@testResults}/logger.log"
-    logger_bat_content = "echo logger %* | tee --append #{logger_log}"
-    File.open(File.join(@instDest, 'logger.bat'), 'w+') { |f| f.puts logger_bat_content }
+    logger_bat_content = "echo logger %* >> #{logger_log}"
+	if true
+		logger_bat = File.join(@instDest, 'logger.bat')
+		File.open(logger_bat, 'w+') { |f| f.puts logger_bat_content }
+	else
     ENV['PATH'].split(';').each {
     |path|
       begin
@@ -359,8 +358,12 @@ public
       end
       rescue # skip non-existent directories or where we cannot write
       end
-    } if false
-    exit 2 unless logger_bat
+    }
+	unless logger_bat
+		puts "install_logger_for_windows failed #{logger_bat.inspect}"
+		exit 2
+	end
+	end
     system("logger #{__FILE__}  via #{logger_bat} started. Should appear in #{logger_log}");
   end
 
@@ -374,9 +377,9 @@ public
   end
   
   def runOneTestcase(testcase, sleepTime = DefaultSleepTime)
+    install_logger_for_windows
     startAgent
     startAUT(sleepTime)
-    install_logger_for_windows
     okay = runTestsuite(testcase)
     stopAgent(10)
     if @exeFile and not WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os'])
