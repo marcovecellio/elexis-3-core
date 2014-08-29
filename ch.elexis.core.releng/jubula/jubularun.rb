@@ -318,6 +318,11 @@ public
     @@nrRun += 1
     log = "#{@testResults}/test-console-#{@@nrRun}.log"
     cmd = "#{JubulaOptions::jubulaHome}/server/autrun --workingdir #{@testResults} -rcp --kblayout #{@kblayout} -i #{@autid} --exec #{@wrapper} --generatename true --autagentport #{@portNumber}"
+    if WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os'])
+      cmd = "start #{cmd}"
+    else
+      cmd += " 2>&1 | tee #{log} &"
+    end
     res = system(cmd)
     if !res then puts "failed. exiting"; exit(3); end
       sleep(sleepTime)
@@ -327,44 +332,6 @@ public
     cmd = adaptCmdForMacOSx("#{JubulaOptions::jubulaHome}/server/stopautagent")
     system("#{cmd} -p #{@portNumber} -stop", @@myFail)
     sleep(sleepTime)
-    if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
-      system("/usr/sbin/screencapture #{@testResults}/screenshots/before_stop_autagent.png", true)
-      system("killall -9 autagent", true)
-      system("/usr/sbin/screencapture #{@testResults}/screenshots/xafter_stop_autagent.png", true)
-    end
-  end
-
-  def install_logger_for_windows
-    logger_bat = nil
-	FileUtils.makedirs(testResults)
-    logger_log = "#{@testResults}/logger.log"
-    logger_bat_content = "echo logger %* >> #{logger_log}"
-	if true
-		logger_bat = File.join(@instDest, 'logger.bat')
-		File.open(logger_bat, 'w+') { |f| f.puts logger_bat_content }
-	else
-    ENV['PATH'].split(';').each {
-    |path|
-      begin
-      logger_bat = File.join(path, 'logger.bat')
-      f = File.open(logger_bat, 'w+')
-      puts "#{logger_bat} is #{f.inspect}"
-      if f
-        f.puts logger_bat_content
-        f.close
-        break
-      else
-        "path is #{path}"
-      end
-      rescue # skip non-existent directories or where we cannot write
-      end
-    }
-	unless logger_bat
-		puts "install_logger_for_windows failed #{logger_bat.inspect}"
-		exit 2
-	end
-	end
-    system("logger #{__FILE__}  via #{logger_bat} started. Should appear in #{logger_log}");
   end
 
   def runTestsuite(testsuite = @testsuite)
@@ -377,7 +344,6 @@ public
   end
   
   def runOneTestcase(testcase, sleepTime = DefaultSleepTime)
-    install_logger_for_windows
     startAgent
     startAUT(sleepTime)
     okay = runTestsuite(testcase)
@@ -387,7 +353,7 @@ public
       system("ps -ef | grep #{@exeFile}")
       system("ps -ef | grep #{File.basename(@exeFile)}")
       system("killall #{File.basename(@exeFile)}")
-   end
+    end
     okay
   end
 
@@ -429,18 +395,14 @@ public
 
   def saveImages(dest = @testResults)
     FileUtils.makedirs(dest)
-    puts "Would save images/htm/log and screenshots to #{dest}" if DryRun
-    (Dir.glob("**/*shot*/*.png")+Dir.glob("**/*.log")+Dir.glob("**/*htm")+
-        Dir.glob(File.join(@dataDir, '*.log'))+Dir.glob(File.join(Dir.home, 'elexis', 'logs', '*.log'))).each{
+    puts "Would save images/htm/log to #{dest}" if DryRun
+    (Dir.glob("**/*shot*/*.png")+Dir.glob("**/*.log")+Dir.glob("**/*htm")+Dir.glob(File.join(@dataDir, '*.log'))).each{
       |x|
           next if /images/.match(x)
           next if /plugins/.match(x)
           next if /#{File.basename(@testResults)}/.match(x)
           FileUtils.cp(x, dest, :verbose => true, :noop => DryRun)
     }
-    if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
-      FileUtils.cp_r(File.join(File.dirname(@exeFile),'screenshots'), @testResults, :preserve => true, :verbose => true, :noop => DryRun)
-    end
   end
 
 end
