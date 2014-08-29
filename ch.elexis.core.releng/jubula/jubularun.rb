@@ -332,6 +332,11 @@ public
     cmd = adaptCmdForMacOSx("#{JubulaOptions::jubulaHome}/server/stopautagent")
     system("#{cmd} -p #{@portNumber} -stop", @@myFail)
     sleep(sleepTime)
+    if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
+      system("/usr/sbin/screencapture #{@testResults}/screenshots/before_stop_autagent.png", true)
+      system("killall -9 autagent", true)
+      system("/usr/sbin/screencapture #{@testResults}/screenshots/xafter_stop_autagent.png", true)
+    end
   end
 
   def runTestsuite(testsuite = @testsuite)
@@ -348,12 +353,6 @@ public
     startAUT(sleepTime)
     okay = runTestsuite(testcase)
     stopAgent(10)
-    if @exeFile and not WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os'])
-      # killit if it is still alive
-      system("ps -ef | grep #{@exeFile}")
-      system("ps -ef | grep #{File.basename(@exeFile)}")
-      system("killall #{File.basename(@exeFile)}")
-    end
     okay
   end
 
@@ -404,11 +403,7 @@ public
           FileUtils.cp(x, dest, :verbose => true, :noop => DryRun)
     }
     if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
-      Dir.glob("**/screenshots").each { # only for MacOSX where the screenshots
-        |x|
-          next if x.index(dest)
-          FileUtils.mv(x, dest, :verbose => true, :noop => DryRun)
-      }
+      FileUtils.cp_r(File.join(File.dirname(@exeFile),'screenshots'), @testResults, :preserve => true, :verbose => true, :noop => DryRun)
     end
   end
 
