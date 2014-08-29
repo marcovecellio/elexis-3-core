@@ -339,6 +339,31 @@ public
     end
   end
 
+  def install_logger_for_windows
+    logger_bat = nil
+    logger_log = "#{@testResults}/logger.log"
+    logger_bat_content = "echo logger %* | tee --append #{logger_log}"
+    File.open(File.join(@instDest, 'logger.bat'), 'w+') { |f| f.puts logger_bat_content }
+    ENV['PATH'].split(';').each {
+    |path|
+      begin
+      logger_bat = File.join(path, 'logger.bat')
+      f = File.open(logger_bat, 'w+')
+      puts "#{logger_bat} is #{f.inspect}"
+      if f
+        f.puts logger_bat_content
+        f.close
+        break
+      else
+        "path is #{path}"
+      end
+      rescue # skip non-existent directories or where we cannot write
+      end
+    } if false
+    exit 2 unless logger_bat
+    system("logger #{__FILE__}  via #{logger_bat} started. Should appear in #{logger_log}");
+  end
+
   def runTestsuite(testsuite = @testsuite)
     res = system("#{JubulaOptions::jubulaHome}/#{@application}/testexec -project  #{project} -port #{@portNumber} " +
       "-version #{@version} -testsuite '#{testsuite}' -server #{server} -autid #{@autid} "+
@@ -351,8 +376,15 @@ public
   def runOneTestcase(testcase, sleepTime = DefaultSleepTime)
     startAgent
     startAUT(sleepTime)
+    install_logger_for_windows
     okay = runTestsuite(testcase)
     stopAgent(10)
+    if @exeFile and not WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os'])
+      # killit if it is still alive
+      system("ps -ef | grep #{@exeFile}")
+      system("ps -ef | grep #{File.basename(@exeFile)}")
+      system("killall #{File.basename(@exeFile)}")
+   end
     okay
   end
 
@@ -395,7 +427,8 @@ public
   def saveImages(dest = @testResults)
     FileUtils.makedirs(dest)
     puts "Would save images/htm/log and screenshots to #{dest}" if DryRun
-    (Dir.glob("**/*.log")+Dir.glob("**/*htm")+Dir.glob(File.join(@dataDir, '*.log'))).each{
+    (Dir.glob("**/*shot*/*.png")+Dir.glob("**/*.log")+Dir.glob("**/*htm")+
+        Dir.glob(File.join(@dataDir, '*.log'))+Dir.glob(File.join(Dir.home, 'elexis', 'logs', '*.log'))).each{
       |x|
           next if /images/.match(x)
           next if /plugins/.match(x)
