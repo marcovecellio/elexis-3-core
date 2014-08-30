@@ -66,7 +66,6 @@ public class ArtikelView extends ViewPart implements IActivationListener, ISavea
 	public void createPartControl(Composite parent){
 		parent.setLayout(new FillLayout());
 		ctab = new CTabFolder(parent, SWT.NONE);
-		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_ArtikelView_CTab");
 		importers = new Hashtable<String, ImporterPage>();
 		addPagesFor(ExtensionPointConstantsUi.VERRECHNUNGSCODE); //$NON-NLS-1$
 		if (ctab.getItemCount() > 0) {
