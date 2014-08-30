@@ -769,32 +769,6 @@
           <name>#1!mappedGDCat#1!</name>
           <association>
             <technicalName>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_1</neighbour>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_2</neighbour>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_3</neighbour>
-              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_2</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("*Patient Detail","*Konsultation","Labor",...)</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>bf3b974a5c3e4b6bbe862b335d5eda0e</logicalName>
-          </association>
-          <association>
-            <technicalName>
               <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
               <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
               <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
@@ -832,33 +806,7 @@
               <alternativeDisplayName>Tabbed Component ("*Patient Detail","*Konsultation","*Labor",...)</alternativeDisplayName>
             </technicalName>
             <type xsi:nil="true"/>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_1</neighbour>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_2</neighbour>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_4</neighbour>
-              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_2</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("*Patient Detail","*Konsultation","*Labor",...)</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>0f8fe587999e43cabc760f1c0a46a81f</logicalName>
+            <logicalName>c516095e3cfd41439c406c4a156bebf9</logicalName>
           </association>
           <association>
             <technicalName>
@@ -887,33 +835,6 @@
           </association>
           <association>
             <technicalName>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_1</neighbour>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_2</neighbour>
-              <neighbour>org.eclipse.swt.custom.CTabFolder_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Sash_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolBar_4</neighbour>
-              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_4</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("*Konsultationen","*Artikel")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>5c33578795b04d479fa19c2d2aa41f69</logicalName>
-          </association>
-          <association>
-            <technicalName>
               <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
               <neighbour>org.eclipse.swt.widgets.ToolBar_1</neighbour>
               <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
@@ -925,492 +846,6 @@
               <alternativeDisplayName>Tabbed Component ("*Konsultationen","*Artikel")</alternativeDisplayName>
             </technicalName>
             <type xsi:nil="true"/>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("*Konsultationen","*Artikel")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>daf4a1f9abc74c2c91dc6f6feef95f50</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.ToolItem_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolItem_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolItem_3</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.PatListView.toolbar</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.ToolItem_1</hierarchyName>
-              <alternativeDisplayName>Toolbar Item</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>4af052c234ca44918cef3e990c781328</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("Block","Eigenleistung","Eigenartikel",...)</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>e33846acf1a14066b18c6a6ac9f8913f</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Table_1</neighbour>
-              <componentClassName>org.eclipse.ui.forms.widgets.Hyperlink</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Canvas</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.Konsdetail</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_2</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.VerrechnungsDisplay_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.Hyperlink_1</hierarchyName>
-              <alternativeDisplayName>Graphics Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>c822355913bf4ac2ae67ae06c0123d05</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.codesystems.CodeSelectorFactory$cPage_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Group_3</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.selectors.SelectorPanel_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.selectors.TextField_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>0c1c228010fd43a38f8c120dae2bca1d</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Table</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Table</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.Konsdetail</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_2</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.VerrechnungsDisplay_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Table_1</hierarchyName>
-              <alternativeDisplayName>Table</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>d02cdf7eab904c9f8518001480ab40c6</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>531718ab6cf64725968a844af6e7dc84</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>ch.elexis.core.ui.util.DayDateCombo_1</neighbour>
-              <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_1</neighbour>
-              <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Combo_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_5</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_6</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_4</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
-              <componentClassName>org.eclipse.ui.forms.widgets.Hyperlink</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Canvas</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.FallDetailBlatt2_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.ScrolledForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.Form_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.Hyperlink_2</hierarchyName>
-              <alternativeDisplayName>Graphics Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>d610712300a943b08b388998e0e21683</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>ch.elexis.core.ui.util.DayDateCombo_1</neighbour>
-              <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_1</neighbour>
-              <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Combo_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_5</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_6</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_7</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_3</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_2</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.FallDetailBlatt2_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.ScrolledForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.Form_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_4</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>58065158bec74dd0ae6645f25e3d44b8</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Group_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>270ee82907be4c5c8cf8ddbc15d00d5f</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <componentClassName>org.eclipse.swt.widgets.TabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.TabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.TabFolder_1</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("Installierte Software","Update Chronik","Plug-ins",...)</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>42691cf391174a2cbd47ede752094639</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>dialog.button.finish</hierarchyName>
-              <alternativeDisplayName>dialog.button.finish ("Finish")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>0af1f9a0fa3c4dfeb46026873dfc7745</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_3</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_4</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_5</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>74e299ab4749462d92a99de4bb54c61c</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>dialog.button.cancel</hierarchyName>
-              <alternativeDisplayName>dialog.button.cancel ("Cancel")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>14fa0e5c061b4289adc87dfd8cf260f0</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Label</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Label</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Label_2</hierarchyName>
-              <alternativeDisplayName>Label ("No updates were found.")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>304945723ba5412eaaf4dd1ebd746c29</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>dialog.button.back</hierarchyName>
-              <alternativeDisplayName>dialog.button.back ("&lt; Back")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>ec02dee28f4243d1a440e0412cbd3eba</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_3</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_2</neighbour>
-              <componentClassName>org.eclipse.ui.forms.widgets.Hyperlink</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Canvas</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.PatListView</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.ui.forms.widgets.Hyperlink_1</hierarchyName>
-              <alternativeDisplayName>Graphics Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>4e7449721ef44c36a19ec70d45f9d634</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Table</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Table</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.PatListView</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Table_1</hierarchyName>
-              <alternativeDisplayName>Table</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>8ee1219858794bf0ac5c7c543bf61276</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>dialog.button.cancel</hierarchyName>
-              <alternativeDisplayName>dialog.button.cancel ("Cancel")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>bb4557639a8b40848827ab72fedcf929</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>dialog.button.ok</hierarchyName>
-              <alternativeDisplayName>dialog.button.ok ("OK")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>ad8b4567a49a410d840251a99a995a08</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>ch.elexis.core.ui.selectors.SelectorPanel_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Table</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Table</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.artikelview</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.artikel.ArtikelView$MasterDetailsPage_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Table_1</hierarchyName>
-              <alternativeDisplayName>Table</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>ad2622a63567429fb8ba545998e8fe5c</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>dialog.button.cancel</hierarchyName>
-              <alternativeDisplayName>dialog.button.cancel ("Cancel")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>4e004a02e5324876a4929d52d44dc0a4</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
-              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
-              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
-              <alternativeDisplayName>Tabbed Component ("*Artikel","Lager","Kompendium online")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>9683c69fdf754a53a7ea41c79be7aff3</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.ToolItem_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolItem_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.ToolItem_3</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.artikelview</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.views.artikel.ArtikelView$MasterDetailsPage_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.selectors.SelectorPanel_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.ToolBar_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.ToolItem_2</hierarchyName>
-              <alternativeDisplayName>Toolbar Item</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>a153cc93723e4c429a6e446e2fd2d7a6</logicalName>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.core.ui.util.ImporterPage$FileBasedImporter_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Button_1</hierarchyName>
-              <alternativeDisplayName>Button Component ("Suchen...")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-            <logicalName>ffe2184701a047a1bce06878d15a3505</logicalName>
           </association>
           <category>
             <name>Patients</name>
@@ -1591,6 +1026,47 @@
               <type xsi:nil="true"/>
               <logicalName>eec8107c5a6544559e5306f659ae6f57</logicalName>
             </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_3</neighbour>
+                <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
+                <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_2</neighbour>
+                <componentClassName>org.eclipse.ui.forms.widgets.Hyperlink</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Canvas</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.PatListView</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.Hyperlink_1</hierarchyName>
+                <alternativeDisplayName>Graphics Component</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>4e7449721ef44c36a19ec70d45f9d634</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.widgets.ToolItem_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolItem_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolItem_3</neighbour>
+                <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.PatListView.toolbar</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.ToolItem_1</hierarchyName>
+                <alternativeDisplayName>Toolbar Item</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>4af052c234ca44918cef3e990c781328</logicalName>
+            </association>
           </category>
           <category>
             <name>Preferences</name>
@@ -1647,6 +1123,22 @@
               </technicalName>
               <type xsi:nil="true"/>
               <logicalName>ef4e9efee9a14667b3b5420dfc796e1a</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
+                <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>dialog.button.cancel</hierarchyName>
+                <alternativeDisplayName>dialog.button.cancel ("Cancel")</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>bb4557639a8b40848827ab72fedcf929</logicalName>
             </association>
           </category>
           <category>
@@ -1817,6 +1309,21 @@
                 </technicalName>
                 <type xsi:nil="true"/>
                 <logicalName>8d605310e1ca415fb5af2b77ebb8d058</logicalName>
+              </association>
+              <association>
+                <technicalName>
+                  <componentClassName>org.eclipse.swt.widgets.TabFolder</componentClassName>
+                  <supportedClassName>org.eclipse.swt.widgets.TabFolder</supportedClassName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.TabFolder_1</hierarchyName>
+                  <alternativeDisplayName>Tabbed Component ("Installierte Software","Update Chronik","Plug-ins",...)</alternativeDisplayName>
+                </technicalName>
+                <type xsi:nil="true"/>
+                <logicalName>42691cf391174a2cbd47ede752094639</logicalName>
               </association>
             </category>
             <category>
@@ -2016,28 +1523,6 @@
               </association>
               <association>
                 <technicalName>
-                  <componentClassName>org.eclipse.swt.widgets.Tree</componentClassName>
-                  <supportedClassName>org.eclipse.swt.widgets.Tree</supportedClassName>
-                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.equinox.internal.p2.ui.dialogs.DelayedFilterCheckboxTree_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Tree_1</hierarchyName>
-                  <alternativeDisplayName>Tree</alternativeDisplayName>
-                </technicalName>
-                <type xsi:nil="true"/>
-                <logicalName>373eeb746dc34e318158f588254f5534</logicalName>
-              </association>
-              <association>
-                <technicalName>
                   <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
                   <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
                   <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
@@ -2067,6 +1552,61 @@
                 </technicalName>
                 <type xsi:nil="true"/>
                 <logicalName>6eecedca95a4444cbb3c67641f93493d</logicalName>
+              </association>
+              <association>
+                <technicalName>
+                  <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
+                  <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                  <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
+                  <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>dialog.button.cancel</hierarchyName>
+                  <alternativeDisplayName>dialog.button.cancel ("Cancel")</alternativeDisplayName>
+                </technicalName>
+                <type xsi:nil="true"/>
+                <logicalName>14fa0e5c061b4289adc87dfd8cf260f0</logicalName>
+              </association>
+              <association>
+                <technicalName>
+                  <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                  <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
+                  <neighbour>org.eclipse.swt.widgets.Label_2</neighbour>
+                  <neighbour>org.eclipse.swt.widgets.Label_3</neighbour>
+                  <neighbour>org.eclipse.swt.widgets.Label_4</neighbour>
+                  <neighbour>org.eclipse.swt.widgets.Label_5</neighbour>
+                  <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
+                  <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
+                  <alternativeDisplayName>Text Component</alternativeDisplayName>
+                </technicalName>
+                <type xsi:nil="true"/>
+                <logicalName>74e299ab4749462d92a99de4bb54c61c</logicalName>
+              </association>
+              <association>
+                <technicalName>
+                  <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
+                  <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Group_1</hierarchyName>
+                  <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
+                  <alternativeDisplayName>Text Component</alternativeDisplayName>
+                </technicalName>
+                <type xsi:nil="true"/>
+                <logicalName>270ee82907be4c5c8cf8ddbc15d00d5f</logicalName>
               </association>
             </category>
           </category>
@@ -2180,6 +1720,79 @@
               <type xsi:nil="true"/>
               <logicalName>7de421fa146f40eab0129f350cc8d2d7</logicalName>
             </association>
+            <association>
+              <technicalName>
+                <neighbour>ch.elexis.core.ui.util.DayDateCombo_1</neighbour>
+                <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_1</neighbour>
+                <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Combo_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_4</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_5</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_6</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_4</neighbour>
+                <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
+                <componentClassName>org.eclipse.ui.forms.widgets.Hyperlink</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Canvas</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.views.FallDetailBlatt2_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.ScrolledForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.Form_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.Hyperlink_2</hierarchyName>
+                <alternativeDisplayName>Graphics Component</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>d610712300a943b08b388998e0e21683</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>ch.elexis.core.ui.util.DayDateCombo_1</neighbour>
+                <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_1</neighbour>
+                <neighbour>com.tiff.common.ui.datepicker.DatePickerCombo_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Combo_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_4</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_5</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_6</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_7</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Text_3</neighbour>
+                <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
+                <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_2</neighbour>
+                <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.views.FallDetailBlatt2_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.ScrolledForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.Form_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Text_4</hierarchyName>
+                <alternativeDisplayName>Text Component</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>58065158bec74dd0ae6645f25e3d44b8</logicalName>
+            </association>
           </category>
           <category>
             <name>Multiple_Use</name>
@@ -2197,6 +1810,20 @@
               </technicalName>
               <type xsi:nil="true"/>
               <logicalName>c1bb49de4f834bfe818dd640d43ce63c</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
+                <hierarchyName>dialog.button.ok</hierarchyName>
+                <alternativeDisplayName>dialog.button.ok ("OK")</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>ad8b4567a49a410d840251a99a995a08</logicalName>
             </association>
           </category>
           <category>
@@ -2271,6 +1898,144 @@
               </technicalName>
               <type xsi:nil="true"/>
               <logicalName>6ee2938cafc54bbba44699e7ae93f90d</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.custom.CTabFolder_1</neighbour>
+                <neighbour>org.eclipse.swt.custom.CTabFolder_2</neighbour>
+                <neighbour>org.eclipse.swt.custom.CTabFolder_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Sash_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Sash_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Sash_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_3</neighbour>
+                <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
+                <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_2</hierarchyName>
+                <alternativeDisplayName>Tabbed Component ("*Patient Detail","*Konsultation","Labor",...)</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>bf3b974a5c3e4b6bbe862b335d5eda0e</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.widgets.Table_1</neighbour>
+                <componentClassName>org.eclipse.ui.forms.widgets.Hyperlink</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Canvas</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.Konsdetail</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_2</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.views.VerrechnungsDisplay_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.Hyperlink_1</hierarchyName>
+                <alternativeDisplayName>Graphics Component</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>c822355913bf4ac2ae67ae06c0123d05</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.custom.CTabFolder_1</neighbour>
+                <neighbour>org.eclipse.swt.custom.CTabFolder_2</neighbour>
+                <neighbour>org.eclipse.swt.custom.CTabFolder_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Composite_4</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Sash_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Sash_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Sash_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_2</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_3</neighbour>
+                <neighbour>org.eclipse.swt.widgets.ToolBar_4</neighbour>
+                <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
+                <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_2</hierarchyName>
+                <alternativeDisplayName>Tabbed Component ("*Patient Detail","*Konsultation","*Labor",...)</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>0f8fe587999e43cabc760f1c0a46a81f</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
+                <alternativeDisplayName>Text Component</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>531718ab6cf64725968a844af6e7dc84</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
+                <componentClassName>org.eclipse.swt.widgets.Table</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Table</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.Konsdetail</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.ui.forms.widgets.LayoutComposite_2</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.views.VerrechnungsDisplay_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Table_1</hierarchyName>
+                <alternativeDisplayName>Table</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>d02cdf7eab904c9f8518001480ab40c6</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_2</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.ToolBar_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.ToolItem_1</hierarchyName>
+                <alternativeDisplayName>Toolbar Item</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>1d7760f7c2ec47ddbe89324397c27521</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
+                <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
+                <alternativeDisplayName>Tabbed Component ("Block","Eigenleistung","Eigenartikel",...)</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>e33846acf1a14066b18c6a6ac9f8913f</logicalName>
             </association>
           </category>
           <category>
@@ -2407,6 +2172,40 @@
               <type xsi:nil="true"/>
               <logicalName>5a697046594d4bcb825599e00dd812fc</logicalName>
             </association>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
+                <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
+                <alternativeDisplayName>Tabbed Component ("*Konsultationen","*Artikel")</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>daf4a1f9abc74c2c91dc6f6feef95f50</logicalName>
+            </association>
+            <association>
+              <technicalName>
+                <neighbour>ch.elexis.core.ui.selectors.SelectorPanel_1</neighbour>
+                <componentClassName>org.eclipse.swt.widgets.Table</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Table</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.artikelview</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.views.artikel.ArtikelView$MasterDetailsPage_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Table_1</hierarchyName>
+                <alternativeDisplayName>Table</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>ad2622a63567429fb8ba545998e8fe5c</logicalName>
+            </association>
           </category>
           <category>
             <name>Kontakt</name>
@@ -2457,6 +2256,35 @@
               </association>
             </category>
           </category>
+          <category>
+            <name>Leistungen</name>
+            <association>
+              <technicalName>
+                <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+                <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
+                <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
+                <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
+                <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.CTabFolder_1</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.views.codesystems.CodeSelectorFactory$cPage_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Group_3</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.selectors.SelectorPanel_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+                <hierarchyName>ch.elexis.core.ui.selectors.TextField_1</hierarchyName>
+                <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
+                <alternativeDisplayName>Text Component</alternativeDisplayName>
+              </technicalName>
+              <type xsi:nil="true"/>
+              <logicalName>0c1c228010fd43a38f8c120dae2bca1d</logicalName>
+            </association>
+          </category>
         </mapped>
         <unmappedComponent>
           <name>#1!unmappedlogicalGDCat#1!</name>
@@ -2468,124 +2296,9 @@
             <type xsi:nil="true"/>
             <logicalName>8ab6b08d1a4d08f3011a4d09a4930022</logicalName>
           </association>
-          <association>
-            <type xsi:nil="true"/>
-            <logicalName>40e202931f244b05894258c1e07295fb</logicalName>
-          </association>
         </unmappedComponent>
         <unmappedTechnical>
           <name>#1!mappedtechnicalGDCat#1!</name>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Button_2</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Button_2</hierarchyName>
-              <alternativeDisplayName>Button Component ("Copy to Clipboard")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Button_2</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Button_3</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>dialog.button.close</hierarchyName>
-              <alternativeDisplayName>dialog.button.close ("Close")</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-          </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_2</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_3</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.PatListView</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-          </association>
-          <category>
-            <name>Abrechnung</name>
-          </category>
-          <category>
-            <name>Patients</name>
-          </category>
-          <category>
-            <name>Preferences</name>
-          </category>
-          <category>
-            <name>Show View</name>
-          </category>
-          <category>
-            <name>Konsultation</name>
-          </category>
-          <category>
-            <name>Alerts</name>
-          </category>
-          <category>
-            <name>Multiple_Use</name>
-          </category>
-          <category>
-            <name>Fälle</name>
-          </category>
-          <category>
-            <name>Kontakt</name>
-            <category>
-              <name>Auswahl-Kontakt</name>
-            </category>
-          </category>
-          <category>
-            <name>SW-update</name>
-            <category>
-              <name>About-SW</name>
-              <association>
-                <technicalName>
-                  <neighbour>org.eclipse.swt.widgets.Button_1</neighbour>
-                  <neighbour>org.eclipse.swt.widgets.Button_2</neighbour>
-                  <componentClassName>org.eclipse.swt.widgets.Button</componentClassName>
-                  <supportedClassName>org.eclipse.swt.widgets.Button</supportedClassName>
-                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_2</hierarchyName>
-                  <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-                  <hierarchyName>dialog.button.close</hierarchyName>
-                  <alternativeDisplayName>dialog.button.close ("Close")</alternativeDisplayName>
-                </technicalName>
-                <type xsi:nil="true"/>
-              </association>
-            </category>
-          </category>
         </unmappedTechnical>
       </objectMapping>
       <autToolkit>com.bredexsw.guidancer.RcpToolkitPlugin</autToolkit>
@@ -2773,6 +2486,21 @@
             <hasOwnTestdata>true</hasOwnTestdata>
           </usedTestcase>
         </teststep>
+        <interfaceLocked>false</interfaceLocked>
+      </testcase>
+      <testcase>
+        <name>Artikel</name>
+        <comment xsi:nil="true"/>
+        <GUID>fd586396e835471892c355f0b740e42d</GUID>
+        <generated>false</generated>
+        <active>true</active>
+        <taskId xsi:nil="true"/>
+        <trackedModification>
+          <key>1409392845930</key>
+          <value>created</value>
+        </trackedModification>
+        <testdata/>
+        <datafile xsi:nil="true"/>
         <interfaceLocked>false</interfaceLocked>
       </testcase>
     </category>
@@ -4269,6 +3997,22 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409393613598</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389655148</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389648334</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389623961</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>APP_NAME</name>
             <type>java.lang.String</type>
@@ -4286,6 +4030,20 @@
             <uniqueIds>eac8d6ae10524a9891d9bce1e44d0bd0</uniqueIds>
           </testdata>
           <datafile xsi:nil="true"/>
+          <teststep>
+            <usedTestcase>
+              <name>Pause (Should be inactive at checkin time)</name>
+              <comment xsi:nil="true"/>
+              <GUID>d5ca7b4180624770bb21b343a38764ef</GUID>
+              <generated>false</generated>
+              <active>false</active>
+              <taskId xsi:nil="true"/>
+              <datafile xsi:nil="true"/>
+              <testcaseGuid>8ab6b083150339b501150364afe8079f</testcaseGuid>
+              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
+              <hasOwnTestdata>false</hasOwnTestdata>
+            </usedTestcase>
+          </teststep>
           <teststep>
             <usedTestcase>
               <name>Restart Elexis and open Leistungen</name>
@@ -6165,6 +5923,22 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409392962204</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392797401</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392762226</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392736644</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>MOUSE_BUTTON</name>
             <type>java.lang.Integer</type>
@@ -6199,7 +5973,7 @@
                   <data columnCount="2">
                     <data>
                       <language>de_DE</language>
-                      <value>matches</value>
+                      <value>equals</value>
                     </data>
                   </data>
                   <data columnCount="3">
@@ -10961,6 +10735,26 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409391486314</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391138104</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391110064</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391027244</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409390164180</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>KONS_TEXT</name>
             <type>java.lang.String</type>
@@ -11020,13 +10814,13 @@
                   <data columnCount="1">
                     <data>
                       <language>de_DE</language>
-                      <value>.*Konsultation.*</value>
+                      <value>*Konsultation</value>
                     </data>
                   </data>
                   <data columnCount="2">
                     <data>
                       <language>de_DE</language>
-                      <value>matches</value>
+                      <value>equals</value>
                     </data>
                   </data>
                 </row>
@@ -11143,7 +10937,7 @@
               <comment xsi:nil="true"/>
               <GUID>3894adc098a047bbaab1ee5518830667</GUID>
               <generated>false</generated>
-              <active>true</active>
+              <active>false</active>
               <taskId xsi:nil="true"/>
               <datafile xsi:nil="true"/>
               <testcaseGuid>f7239477bfd84662ac2fe91e83b03826</testcaseGuid>
@@ -11152,6 +10946,50 @@
                 <propagated>false</propagated>
                 <originalName>8ab6b08d1a4d08f3011a4d09a4930022</originalName>
                 <newName>6ee2938cafc54bbba44699e7ae93f90d</newName>
+              </overriddenNames>
+            </usedTestcase>
+          </teststep>
+          <teststep>
+            <usedTestcase>
+              <name/>
+              <comment xsi:nil="true"/>
+              <GUID>91a309de5dcd41e38d3f9a04a90029cf</GUID>
+              <generated>false</generated>
+              <active>true</active>
+              <taskId xsi:nil="true"/>
+              <testdata>
+                <row rowCount="1">
+                  <data columnCount="1">
+                    <data>
+                      <language>de_DE</language>
+                      <value>Neue Konsultation</value>
+                    </data>
+                  </data>
+                  <data columnCount="2">
+                    <data>
+                      <language>de_DE</language>
+                      <value>1</value>
+                    </data>
+                  </data>
+                  <data columnCount="3">
+                    <data>
+                      <language>de_DE</language>
+                      <value>equals</value>
+                    </data>
+                  </data>
+                </row>
+                <uniqueIds>8ab6b08324478f5b01244839687a0075</uniqueIds>
+                <uniqueIds>8ab6b08324478f5b0124483987410076</uniqueIds>
+                <uniqueIds>8ab6b08324478f5b0124487c95120084</uniqueIds>
+              </testdata>
+              <datafile xsi:nil="true"/>
+              <testcaseGuid>8ab6b08324478f5b01244836b703006e</testcaseGuid>
+              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
+              <hasOwnTestdata>true</hasOwnTestdata>
+              <overriddenNames>
+                <propagated>false</propagated>
+                <originalName>8ab6b08d1a4d08f3011a4d09a4930022</originalName>
+                <newName>1d7760f7c2ec47ddbe89324397c27521</newName>
               </overriddenNames>
             </usedTestcase>
           </teststep>
@@ -12088,6 +11926,10 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409389775678</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>FAMILY_NAME</name>
             <type>java.lang.String</type>
@@ -12274,7 +12116,7 @@
                   <data columnCount="3">
                     <data>
                       <language>de_DE</language>
-                      <value>1000</value>
+                      <value>3000</value>
                     </data>
                   </data>
                   <data columnCount="4">
@@ -12788,6 +12630,14 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409391580081</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391004045</key>
+            <value>modified</value>
+          </trackedModification>
           <testdata/>
           <datafile xsi:nil="true"/>
           <teststep>
@@ -13046,6 +12896,30 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409391586325</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391581163</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391013964</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391005435</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409390150144</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389723176</key>
+            <value>modified</value>
+          </trackedModification>
           <testdata/>
           <datafile xsi:nil="true"/>
           <teststep>
@@ -13317,6 +13191,54 @@
           <active>true</active>
           <taskId xsi:nil="true"/>
           <trackedModification>
+            <key>1409393630865</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409393001447</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392933085</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392600490</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392587299</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392572297</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409392409354</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409390240836</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409390216011</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389373339</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389303990</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409389261255</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
             <key>1409244318909</key>
             <value>modified</value>
           </trackedModification>
@@ -13469,7 +13391,7 @@
                   <data columnCount="1">
                     <data>
                       <language>de_DE</language>
-                      <value>'*Artikel'</value>
+                      <value>*Artikel</value>
                     </data>
                   </data>
                   <data columnCount="2">
@@ -13591,7 +13513,7 @@
                   <data columnCount="1">
                     <data>
                       <language>de_DE</language>
-                      <value>'*Artikel'</value>
+                      <value>*Artikel</value>
                     </data>
                   </data>
                   <data columnCount="2">
@@ -13634,7 +13556,7 @@
                   <data columnCount="2">
                     <data>
                       <language>de_DE</language>
-                      <value>Import.*</value>
+                      <value>Import...</value>
                     </data>
                   </data>
                 </row>
@@ -13649,6 +13571,20 @@
                 <originalName>8ab6b08d1a4d08f3011a4d09a4930022</originalName>
                 <newName>eca93312f4ee4ffbb07a37f42bf43ef4</newName>
               </overriddenNames>
+            </usedTestcase>
+          </teststep>
+          <teststep>
+            <usedTestcase>
+              <name>Pause. Must be inactive for CheckIn</name>
+              <comment xsi:nil="true"/>
+              <GUID>5d3aef54f9d34f1d915267b7240a6d8b</GUID>
+              <generated>false</generated>
+              <active>false</active>
+              <taskId xsi:nil="true"/>
+              <datafile xsi:nil="true"/>
+              <testcaseGuid>8ab6b083150339b501150364afe8079f</testcaseGuid>
+              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
+              <hasOwnTestdata>false</hasOwnTestdata>
             </usedTestcase>
           </teststep>
           <teststep>
@@ -14323,7 +14259,7 @@
             </usedTestcase>
           </teststep>
           <eventTestcase>
-            <name>Return on ActionError</name>
+            <name>CONTINUE on ActionError</name>
             <comment xsi:nil="true"/>
             <GUID>f45c8740a0f84523b65a79cd03d299ba</GUID>
             <generated>false</generated>
@@ -14353,6 +14289,20 @@
             <eventType>TestErrorEvent.VerifyFailed</eventType>
             <reentryProperty>retry</reentryProperty>
             <maxRetries>1</maxRetries>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Return on Component not found</name>
+            <comment xsi:nil="true"/>
+            <GUID>c407e253362046a094e12f530e0d77c6</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.CompNotFound</eventType>
+            <reentryProperty>return</reentryProperty>
           </eventTestcase>
           <interfaceLocked>false</interfaceLocked>
         </testcase>
@@ -14561,6 +14511,22 @@
         <generated>false</generated>
         <active>true</active>
         <taskId xsi:nil="true"/>
+        <trackedModification>
+          <key>1409391572336</key>
+          <value>modified</value>
+        </trackedModification>
+        <trackedModification>
+          <key>1409390995331</key>
+          <value>modified</value>
+        </trackedModification>
+        <trackedModification>
+          <key>1409389801184</key>
+          <value>modified</value>
+        </trackedModification>
+        <trackedModification>
+          <key>1409388952955</key>
+          <value>modified</value>
+        </trackedModification>
         <trackedModification>
           <key>1409244697737</key>
           <value>modified</value>
@@ -16303,9 +16269,40 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409392376293</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409391356101</key>
+            <value>modified</value>
+          </trackedModification>
           <selectedAut>ID_A_286356</selectedAut>
           <stepDelay>0</stepDelay>
           <commandLineParameter xsi:nil="true"/>
+          <usedTestcase>
+            <name/>
+            <comment xsi:nil="true"/>
+            <GUID>eb213279cb4d4dc59bfd2aa1545c3ba0</GUID>
+            <generated>false</generated>
+            <active>false</active>
+            <taskId xsi:nil="true"/>
+            <testdata>
+              <row rowCount="1">
+                <data columnCount="1">
+                  <data>
+                    <language>de_DE</language>
+                    <value>Versuch Konsultation zu erfassen</value>
+                  </data>
+                </data>
+              </row>
+              <uniqueIds>83001c4d2b1348558832fdd7471850a3</uniqueIds>
+            </testdata>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>ae9ad522d2304e999f75afe5f6b6ae3d</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>true</hasOwnTestdata>
+          </usedTestcase>
           <usedTestcase>
             <name>Import Artikelstamm from current directory</name>
             <comment>Filename may not contain /</comment>
@@ -16531,7 +16528,7 @@
       <GUID>42691cf391174a2cbd47ede752094639</GUID>
       <creationContext>STEP</creationContext>
       <refGuid xsi:nil="true"/>
-      <compName>Elexis300a201405151339_AboutElexisOpenSource_ElexisOpenSourceInstallatio0_TabFolder_1_tpn</compName>
+      <compName>AboutElexisOpenSource_Installation_TabFolder_1_tpn</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.concrete.Button</compType>
@@ -17045,7 +17042,7 @@
       <compName>SW_details_close_btn</compName>
     </componentNames>
     <componentNames>
-      <compType>guidancer.abstract.TextVerifiable</compType>
+      <compType>guidancer.concrete.Label</compType>
       <GUID>304945723ba5412eaaf4dd1ebd746c29</GUID>
       <creationContext>OVERRIDDEN_NAME</creationContext>
       <refGuid xsi:nil="true"/>
@@ -17392,7 +17389,7 @@
       <GUID>e33846acf1a14066b18c6a6ac9f8913f</GUID>
       <creationContext>OVERRIDDEN_NAME</creationContext>
       <refGuid xsi:nil="true"/>
-      <compName>Elexis300qualifier0070_CTabFolder_1_tpn</compName>
+      <compName>Konst_Medi_CTabFolder_1_tpn</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.abstract.Widget</compType>
@@ -17686,7 +17683,7 @@
       <GUID>bf3b974a5c3e4b6bbe862b335d5eda0e</GUID>
       <creationContext>STEP</creationContext>
       <refGuid xsi:nil="true"/>
-      <compName>Elexis300qualifier00725_CTabFolder_2_tpn</compName>
+      <compName>Tab_Konsultation_tpn</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.concrete.ComboBox</compType>
@@ -17701,6 +17698,20 @@
       <creationContext>STEP</creationContext>
       <refGuid xsi:nil="true"/>
       <compName>Artikelstamm_Table_1_tbl</compName>
+    </componentNames>
+    <componentNames>
+      <compType>org.eclipse.swt.widgets.ToolItem</compType>
+      <GUID>1d7760f7c2ec47ddbe89324397c27521</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Konsultation_ToolItem_1_tbi</compName>
+    </componentNames>
+    <componentNames>
+      <compType>guidancer.concrete.TabbedPane</compType>
+      <GUID>c516095e3cfd41439c406c4a156bebf9</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300qualifier0070_CTabFolder_2_tpn</compName>
     </componentNames>
     <testresultSummaries>
       <testresultSummary>
@@ -62614,6 +62625,1662 @@
         <attribute>
           <key>testsuiteStartTime</key>
           <value>2014-08-28 06:49:43.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>38c45417da1b47f996a42e4c6222f7d3</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:05:56.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:57</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:05:56.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>74</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>236</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>308</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:03:58.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>2bcc5bcdb8194abc9510dadd0b6a37c6</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:13:01.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:02:53</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:13:01.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>212</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>239</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:10:07.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>f95aede1d44944308dde436e72ad5b36</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:20:07.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:02:15</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:20:07.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>185</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>239</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:17:52.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>e944987193c34fc89a8b62f68b10c518</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:32:25.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:04:22</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:32:25.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>185</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>239</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:28:03.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>279dc45a9f8849b89ef04e6be35756a3</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:36:26.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:02:33</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:36:26.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>8</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>64</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:33:53.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>7c7ccf7b14944b5ba8ad461f907b7dfc</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:38:38.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:00:09</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:38:38.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>33</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>33</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>Work</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:38:28.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>a3fd7518e4a94f618ddbbe4a7e8370fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 11:52:38.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:12:27</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 11:52:38.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>7</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>198</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>306</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 11:40:11.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>93b2405b21d945958120b80f1d278b1b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>82bb15b1f2fb4b42b743d65a49893839</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>41ff46ae13704b59ad6327a1f9961dbb</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>286352</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 12:04:08.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:00:27</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 12:04:08.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>61</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>61</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>Work</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 12:03:40.0</value>
           <type>java.util.Date</type>
         </attribute>
         <attribute>
