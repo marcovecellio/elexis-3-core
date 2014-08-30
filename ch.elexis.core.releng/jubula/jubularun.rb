@@ -91,17 +91,18 @@ public
         @plugins_dir = File.expand_path(File.join(@exeFile, '..', '..', '..', 'plugins'))
       end
     else # Try to find the Elexis exe in our workspace
-      puts "Try to find the Elexis exe in our workspace"
+      workspace = File.expand_path(File.join(__FILE__, '..', '..', '..'))
+      puts "Try to find the Elexis exe in our workspace #{workspace}"      
       pathname = ''; @exeFile = ''
       case RbConfig::CONFIG['host_os']
         when WINDOWS_REGEXP
-        pathname = File.expand_path(File.join('..', '..', '**',@winType, '**', @cpu, "*elexis*.exe"))
+        pathname = File.expand_path(File.join(workspace, '*site*','**', @winType, '**', @cpu, "*elexis*.exe"))
         if (Dir.glob(File.expand_path(pathname)).size == 1)
           @exeFile = Dir.glob(File.expand_path(pathname))[0]
           @instDest =  File.dirname(@exeFile)
         end
         when MACOSX_REGEXP
-        pathname = File.expand_path("../../*/target/products/*/#{@os}/#{@winType}/#{@cpu}/*app/configuration/config.ini")
+        pathname = File.expand_path(File.join(workspace, "*site*/target/products/*/#{@os}/*/*/*app/configuration/config.ini"))
         files = Dir.glob(File.expand_path(pathname))
         if (files.size == 1)
           pathname =files[0].sub('.app/Contents/macos/configuration/config.ini', '')
@@ -111,7 +112,7 @@ public
           @instDest =  pathname
         end
       else
-        pathname = File.expand_path(File.join(__FILE__, "../../../*site*/target/products/*/#{@os}/#{@winType}/#{@cpu}/configuration/config.ini"))
+        pathname = File.expand_path(File.join(workspace, "*site*/target/products/*/#{@os}/#{@winType}/#{@cpu}/configuration/config.ini"))
         if (Dir.glob(File.expand_path(pathname)).size == 1)
           pathname = pathname.sub('configuration/config.ini', '*.ini')
           if (Dir.glob(File.expand_path(pathname)).size == 1)
