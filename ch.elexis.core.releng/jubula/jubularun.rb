@@ -29,7 +29,7 @@ public
     )
   }
     
-  @@myFail = true
+  @@mayFail = true
 
   # pass JubulaOptions like this: :autid = 'myAutId', :instDest = '/opt/myInstallation'
   def initialize(options = nil) 
@@ -243,7 +243,7 @@ public
       dbDir = File.dirname(@dburl.split(';')[0].split(':')[-1])
       FileUtils.rm_rf(File.expand_path(dbDir), :verbose => true, :noop => @dryRun)
     else
-      system("#{JubulaOptions::jubulaHome}/#{@application}/dbtool -data #{@data} -delete #{project} #{version} #{dbSpec}", @@myFail)
+      system("#{JubulaOptions::jubulaHome}/#{@application}/dbtool -data #{@data} -delete #{project} #{version} #{dbSpec}", @@mayFail)
     end
   end
   
@@ -263,7 +263,7 @@ public
       |tcModule|
       tcs = Dir.glob("#{JubulaOptions::jubulaHome}/examples/testCaseLibrary/#{tcModule}_*.xml")
       raise "Should have found exactly 1 one file. Got #{tcs.inspect}" if tcs.size != 1
-      system("#{JubulaOptions::jubulaHome}/#{@application}/dbtool -data #{@data} -import #{tcs[0]} #{dbSpec}", @@myFail)
+      system("#{JubulaOptions::jubulaHome}/#{@application}/dbtool -data #{@data} -import #{tcs[0]} #{dbSpec}", @@mayFail)
     }
     system("#{JubulaOptions::jubulaHome}/#{@application}/dbtool -data #{@data} -import #{xmlFile} #{dbSpec}")
   end
@@ -330,8 +330,8 @@ public
   
   def stopAgent(sleepTime = 3)
     cmd = adaptCmdForMacOSx("#{JubulaOptions::jubulaHome}/server/stopautagent")
-    system("#{cmd} -p #{@portNumber} -stop", @@myFail)
-    system("killall -9 autagent", true) if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
+    system("#{cmd} -p #{@portNumber} -stop", @@mayFail)
+    system("killall -9 autagent", @@mayFail) if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
     sleep(sleepTime)
   end
 
@@ -351,9 +351,9 @@ public
     stopAgent(10)
     if @exeFile and not WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os'])
       # killit if it is still alive
-      system("ps -ef | grep #{@exeFile}")
-      system("ps -ef | grep #{File.basename(@exeFile)}")
-      system("killall #{File.basename(@exeFile)}")
+      system("ps -ef | grep #{@exeFile}", @@mayFail)
+      system("ps -ef | grep #{File.basename(@exeFile)}", @@mayFail)
+      system("killall #{File.basename(@exeFile)}", @@mayFail)
     end
     okay
   end
