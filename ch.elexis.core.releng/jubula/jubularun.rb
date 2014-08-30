@@ -132,7 +132,7 @@ public
   def installFromZip
     if @installer
       @installer = File.expand_path(@installer)
-      if File.directory?(@instDest)
+      if File.directory?(@instDest) and Dir.glob(File.join(@instDest, '*').size > 4
         puts "Skip unzipping from #{@installer} as #{@instDest} already present"
       else
         saved = Dir.pwd
