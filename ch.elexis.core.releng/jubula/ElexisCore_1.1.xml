@@ -3308,6 +3308,10 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409409757027</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>PREFERENCES_PATH</name>
             <type>java.lang.String</type>
@@ -3436,6 +3440,20 @@
               <newName>bb4557639a8b40848827ab72fedcf929</newName>
             </overriddenNames>
             <eventType>TestErrorEvent.VerifyFailed</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Break on Compent Not Found</name>
+            <comment xsi:nil="true"/>
+            <GUID>1cf037b925624e318af5b310467ef231</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.CompNotFound</eventType>
             <reentryProperty>break</reentryProperty>
           </eventTestcase>
           <interfaceLocked>false</interfaceLocked>
@@ -4614,6 +4632,18 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409409889930</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409859052</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409830239</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>NAME</name>
             <type>java.lang.String</type>
@@ -4692,6 +4722,48 @@
               <hasOwnTestdata>true</hasOwnTestdata>
             </usedTestcase>
           </teststep>
+          <eventTestcase>
+            <name>Break on Action Error</name>
+            <comment xsi:nil="true"/>
+            <GUID>d0abeba2af8c4b73a3c3d3cca3e09509</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.Action</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Break on Check Failed</name>
+            <comment xsi:nil="true"/>
+            <GUID>bb0a24b82c0f457283ca9016e5e91919</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.VerifyFailed</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Break on Component not found</name>
+            <comment xsi:nil="true"/>
+            <GUID>086fc24b4a7b4a28927aa17bd646eb5e</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.CompNotFound</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
           <interfaceLocked>false</interfaceLocked>
         </testcase>
         <testcase>
@@ -4815,6 +4887,18 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409409984879</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409960758</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409926311</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>VIEWNAME</name>
             <type>java.lang.String</type>
@@ -4955,6 +5039,48 @@
               <hasOwnTestdata>true</hasOwnTestdata>
             </usedTestcase>
           </teststep>
+          <eventTestcase>
+            <name>Break on Action Error</name>
+            <comment xsi:nil="true"/>
+            <GUID>829de633b72a4348aa09e1d0bdd27725</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.Action</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Break on Check Failed</name>
+            <comment xsi:nil="true"/>
+            <GUID>12d604e478da403bbf7421bb188ad600</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.VerifyFailed</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Break on Component Not Found</name>
+            <comment xsi:nil="true"/>
+            <GUID>397950e53f4544239e3d1d80819226b7</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.CompNotFound</eventType>
+            <reentryProperty>break</reentryProperty>
+          </eventTestcase>
           <interfaceLocked>false</interfaceLocked>
         </testcase>
         <testcase>
@@ -13144,6 +13270,22 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409409616797</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409567826</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409521131</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409409496101</key>
+            <value>modified</value>
+          </trackedModification>
           <testdata/>
           <datafile xsi:nil="true"/>
           <teststep>
@@ -13198,6 +13340,62 @@
               <hasOwnTestdata>false</hasOwnTestdata>
             </usedTestcase>
           </teststep>
+          <eventTestcase>
+            <name>Return on ActionError</name>
+            <comment xsi:nil="true"/>
+            <GUID>09e062ab895248f09e6d0a780d628de7</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.Action</eventType>
+            <reentryProperty>return</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Return on Check Failed</name>
+            <comment xsi:nil="true"/>
+            <GUID>4d5c4d02eab54bc1b43c158a37c7ba2f</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.VerifyFailed</eventType>
+            <reentryProperty>return</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Return on Component not Found</name>
+            <comment xsi:nil="true"/>
+            <GUID>d9f77fc7b69f47fa979596e819ef37e7</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.CompNotFound</eventType>
+            <reentryProperty>return</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Return on Configuration Error</name>
+            <comment xsi:nil="true"/>
+            <GUID>a487bd1ee0cc4a61801b176419e8c88b</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.Config</eventType>
+            <reentryProperty>return</reentryProperty>
+          </eventTestcase>
           <interfaceLocked>false</interfaceLocked>
         </testcase>
         <testcase>
@@ -13676,6 +13874,10 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409409653000</key>
+            <value>modified</value>
+          </trackedModification>
           <trackedModification>
             <key>1409408777237</key>
             <value>modified</value>
@@ -14746,6 +14948,20 @@
             <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
             <hasOwnTestdata>false</hasOwnTestdata>
             <eventType>TestErrorEvent.CompNotFound</eventType>
+            <reentryProperty>return</reentryProperty>
+          </eventTestcase>
+          <eventTestcase>
+            <name>Return on Configuration Error</name>
+            <comment xsi:nil="true"/>
+            <GUID>fd34965a7f454efdbab424f6a71bdb45</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>9230ed2fa60d47b0b54f637da3c72b56</testcaseGuid>
+            <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <eventType>TestErrorEvent.Config</eventType>
             <reentryProperty>return</reentryProperty>
           </eventTestcase>
           <interfaceLocked>false</interfaceLocked>
@@ -69893,6 +70109,213 @@
         <attribute>
           <key>testsuiteStartTime</key>
           <value>2014-08-30 02:26:42.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>fd2e2301b7b44fa3ba6d674aa076c91a</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>3f05ef2842754480a29a4bcb1c233010</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>2da664ba8c9a46d5a6f86c26dfd4f03a</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>346100</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>aef684f301174fb28caf0731a74af9fe</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-08-30 04:48:48.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:44</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-08-30 04:48:48.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>306</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>306</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>FULLTEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-08-30 04:47:03.0</value>
           <type>java.util.Date</type>
         </attribute>
         <attribute>
