@@ -406,7 +406,8 @@ public
           FileUtils.cp(x, dest, :verbose => true, :noop => DryRun)
     }
     if MACOSX_REGEXP.match(RbConfig::CONFIG['host_os'])
-      FileUtils.cp_r(File.join(File.dirname(@exeFile),'screenshots'), @testResults, :preserve => true, :verbose => true, :noop => DryRun)
+      orig = File.join(File.dirname(@exeFile),'screenshots')
+      FileUtils.cp_r(orig, @testResults, :preserve => true, :verbose => true, :noop => DryRun) if File.exists?(orig)
     end
   end
 
