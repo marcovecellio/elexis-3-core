@@ -16,7 +16,7 @@ if $0.index(File.basename(__FILE__))
 end
 
 class JubulaRun
-  DefaultSleepTime =  /linux/.match(RbConfig::CONFIG['host_os']) ? 15 : 30
+  DefaultSleepTime =  WINDOWS_REGEXP.match(RbConfig::CONFIG['host_os']) ? 30 : 10
 public
     JubulaOptions::Fields.each { 
       |x|
