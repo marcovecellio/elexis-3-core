@@ -72,9 +72,9 @@ end
 
 def run_test_suite(jubula, test_suite_name)
   jubula.useH2(Dir.pwd)
+  jubula.patchXML # must be before loadTestcases
   jubula.rmTestcases  # only if using h2
   jubula.loadTestcases    # only if using h2
-  jubula.patchXML
   res = jubula.runOneTestcase(test_suite_name)
   jubula.saveImages
   jubula.checkOutcome(res, test_suite_name)
