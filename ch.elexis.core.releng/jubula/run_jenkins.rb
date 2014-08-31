@@ -72,6 +72,8 @@ end
 
 def run_test_suite(jubula, test_suite_name)
   jubula.useH2(Dir.pwd)
+  jubula.rmTestcases  # only if using h2
+  jubula.loadTestcases    # only if using h2
   jubula.patchXML
   res = jubula.runOneTestcase(test_suite_name)
   jubula.saveImages
@@ -86,8 +88,6 @@ def cleanup_and_install_from_zip(jubula)
   jubula.genWrapper
   jubula.prepareRcpSupport
   jubula.useH2(Dir.pwd)
-  jubula.rmTestcases  # only if using h2
-  jubula.loadTestcases    # only if using h2
 end
 
 unless ARGV.size > 0
