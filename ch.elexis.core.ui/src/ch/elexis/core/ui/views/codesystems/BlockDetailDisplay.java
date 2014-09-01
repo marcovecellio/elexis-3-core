@@ -193,6 +193,7 @@ public class BlockDetailDisplay implements IDetailDisplay {
 			
 		});
 		bNew = tk.createButton(body, Messages.BlockDetailDisplay_addPredefinedServices, SWT.PUSH); //$NON-NLS-1$
+		bNew.setData("TEST_COMP_NAME", "Elexis_Core_UI_BlockDetailDisplay_addPredefinedServices");
 		bNew.setLayoutData(SWTHelper.getFillGridData(1, true, 1, false));
 		bNew.addSelectionListener(new SelectionAdapter() {
 			
@@ -212,6 +213,7 @@ public class BlockDetailDisplay implements IDetailDisplay {
 		
 		bEigen =
 			tk.createButton(body, Messages.BlockDetailDisplay_addSelfDefinedServices, SWT.PUSH); //$NON-NLS-1$
+		bEigen.setData("TEST_COMP_NAME", "Elexis_Core_UI_BlockDetailDisplay_addSelfDefinedServices");
 		bEigen.setLayoutData(SWTHelper.getFillGridData(1, true, 1, false));
 		bEigen.addSelectionListener(new SelectionAdapter() {
 			@Override
@@ -231,6 +233,7 @@ public class BlockDetailDisplay implements IDetailDisplay {
 		});
 		
 		bDiag = tk.createButton(body, "Diagnose hinzufügen", SWT.PUSH); //$NON-NLS-1$
+		bDiag.setData("TEST_COMP_NAME", "Elexis_Core_UI_BlockDetailDisplay_addDiagnosis");
 		bDiag.setLayoutData(SWTHelper.getFillGridData(1, true, 1, false));
 		bDiag.addSelectionListener(new SelectionAdapter() {
 			

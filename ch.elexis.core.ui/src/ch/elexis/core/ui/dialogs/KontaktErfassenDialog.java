@@ -82,6 +82,8 @@ public class KontaktErfassenDialog extends TitleAreaDialog {
 		bOrganisation =
 			UiDesk.getToolkit().createButton(cTypes, Messages.KontaktErfassenDialog_organization, //$NON-NLS-1$
 				SWT.CHECK);
+		bOrganisation.setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktErfassenDialog_Organisation");
+
 		bOrganisation.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e){
 				bOrganisationChanged(bOrganisation.getSelection());
@@ -90,6 +92,7 @@ public class KontaktErfassenDialog extends TitleAreaDialog {
 		bLabor =
 			UiDesk.getToolkit().createButton(cTypes, Messages.KontaktErfassenDialog_labor,
 				SWT.CHECK); //$NON-NLS-1$
+		bLabor.setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktErfassenDialog_Labor");
 		bLabor.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e){
 				bLaborChanged(bLabor.getSelection());
@@ -98,6 +101,7 @@ public class KontaktErfassenDialog extends TitleAreaDialog {
 		bPerson =
 			UiDesk.getToolkit().createButton(cTypes, Messages.KontaktErfassenDialog_person,
 				SWT.CHECK); //$NON-NLS-1$
+		bPerson.setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktErfassenDialog_Person");
 		bPerson.setSelection(true);
 		bPerson.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e){
@@ -107,6 +111,7 @@ public class KontaktErfassenDialog extends TitleAreaDialog {
 		bPatient =
 			UiDesk.getToolkit().createButton(cTypes, Messages.KontaktErfassenDialog_patient,
 				SWT.CHECK); //$NON-NLS-1$
+		bPatient.setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktErfassenDialog_Patient");
 		bPatient.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e){
 				bPatientChanged(bPatient.getSelection());
@@ -120,6 +125,7 @@ public class KontaktErfassenDialog extends TitleAreaDialog {
 		bAnwender =
 			UiDesk.getToolkit()
 				.createButton(cTypes, Messages.KontaktErfassenDialog_user, SWT.CHECK); //$NON-NLS-1$
+		bAnwender.setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktErfassenDialog_Anwender");
 		bAnwender.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e){
 				bAnwenderChanged(bAnwender.getSelection());
@@ -128,6 +134,7 @@ public class KontaktErfassenDialog extends TitleAreaDialog {
 		bMandant =
 			UiDesk.getToolkit().createButton(cTypes, Messages.KontaktErfassenDialog_mandant,
 				SWT.CHECK); //$NON-NLS-1$
+		bMandant.setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktErfassenDialog_Mandant");
 		bMandant.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e){
 				bMandantChanged(bMandant.getSelection());

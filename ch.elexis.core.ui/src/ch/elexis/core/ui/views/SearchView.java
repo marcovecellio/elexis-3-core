@@ -130,6 +130,7 @@ public class SearchView extends ViewPart implements ISaveablePart2 {
 		});
 		
 		viewer = new TableViewer(main);
+		viewer.setData("TEST_COMP_NAME", "Elexis_Core_UI_SearchView_TV");
 		Table table = viewer.getTable();
 		table.setLayoutData(SWTHelper.getFillGridData(1, true, 1, true));
 		

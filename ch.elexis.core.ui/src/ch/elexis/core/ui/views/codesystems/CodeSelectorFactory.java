@@ -172,7 +172,7 @@ public abstract class CodeSelectorFactory implements IExecutableExtension {
 						codeSystemName = "??"; //$NON-NLS-1$
 					}
 					CTabItem tabItem = new CTabItem(ctab, SWT.NONE);
-					
+					tabItem.setData("TEST_COMP_NAME", "Elexis_Core_UI_CodeSelectorFactory_"+codeSystemName);
 					tabItem.setText(codeSystemName);
 					tabItem.setData(codeElement);
 					tabItem.setData("csf", codeSelectorFactory);

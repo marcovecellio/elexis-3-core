@@ -42,6 +42,7 @@ public class DiagnosenView extends ViewPart implements IActivationListener, ISav
 	public void createPartControl(Composite parent){
 		parent.setLayout(new FillLayout());
 		ctab = new CTabFolder(parent, SWT.BOTTOM);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_DiagnosenView_CTab");
 		ctab.setSimple(false);
 		ctab.addSelectionListener(new SelectionAdapter() {
 			

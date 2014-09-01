@@ -96,6 +96,7 @@ public class FaelleView extends ViewPart implements IActivationListener {
 		setPartName(Messages.FaelleView_partName); //$NON-NLS-1$
 		parent.setLayout(new GridLayout());
 		tv = new TableViewer(parent);
+		tv.setData("TEST_COMP_NAME", "Elexis_Core_UI_FaelleView_TV");
 		tv.getControl().setLayoutData(SWTHelper.getFillGridData(1, true, 1, true));
 		tv.setContentProvider(new FaelleContentProvider());
 		tv.setLabelProvider(new FaelleLabelProvider());

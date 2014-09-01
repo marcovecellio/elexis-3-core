@@ -133,6 +133,7 @@ public class ClientCustomTextComposite extends Composite {
 		});
 		
 		btnEditCustomText = toolkit.createButton(this, "", SWT.TOGGLE);
+		btnEditCustomText.setData("TEST_COMP_NAME", "Elexis_Core_UI_ClientCustomText_Edit");
 		TableWrapData twd_btnEditCustomText =
 			new TableWrapData(TableWrapData.LEFT, TableWrapData.TOP, 1, 1);
 		twd_btnEditCustomText.valign = TableWrapData.MIDDLE;

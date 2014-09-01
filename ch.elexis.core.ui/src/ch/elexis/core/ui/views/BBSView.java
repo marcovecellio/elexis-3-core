@@ -102,6 +102,7 @@ public class BBSView extends ViewPart implements ISelectionChangedListener, ISav
 		gd = new GridData(GridData.FILL_HORIZONTAL | GridData.FILL_VERTICAL);
 		input.setLayoutData(gd);
 		Button send = tk.createButton(form.getBody(), Messages.BBSView_DoSend, SWT.PUSH); //$NON-NLS-1$
+		send.setData("TEST_COMP_NAME", "Elexis_Core_UI_BBSView_DoSend");
 		send.addSelectionListener(new SelectionAdapter() {
 			@SuppressWarnings("unchecked")
 			@Override

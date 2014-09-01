@@ -118,6 +118,7 @@ public class MandantSelectionContributionItem extends ContributionItem {
 			return;
 		
 		item = new ToolItem(parent, SWT.DROP_DOWN);
+		item.setData("TEST_COMP_NAME", "Elexis_Core_UI_MandantSelection_Actual");
 		item.setToolTipText("Aktuell ausgewählter Mandant bzw. Mandantenauswahl");
 		
 		menuItems = new MenuItem[mandants.length];

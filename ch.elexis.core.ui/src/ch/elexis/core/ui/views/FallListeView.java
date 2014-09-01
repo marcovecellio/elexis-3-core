@@ -127,6 +127,7 @@ public class FallListeView extends ViewPart implements IActivationListener, ISav
 			
 			public Button createButton(Composite parent1){
 				Button ret = tk.createButton(parent1, Messages.FallListeView_NewCase, SWT.PUSH); //$NON-NLS-1$
+				ret.setData("TEST_COMP_NAME", "Elexis_Core_UI_FallListeView_Create");
 				ret.addSelectionListener(new SelectionAdapter() {
 					@Override
 					public void widgetSelected(SelectionEvent e){
@@ -208,6 +209,7 @@ public class FallListeView extends ViewPart implements IActivationListener, ISav
 		ButtonProvider behandlButton = new ButtonProvider() {
 			public Button createButton(Composite parent1){
 				Button ret = tk.createButton(parent1, Messages.FallListeView_NewKons, SWT.PUSH); //$NON-NLS-1$
+				ret.setData("TEST_COMP_NAME", "Elexis_Core_UI_FallListeView_NewKons");
 				ret.addSelectionListener(new SelectionAdapter() {
 					@Override
 					public void widgetSelected(SelectionEvent e){

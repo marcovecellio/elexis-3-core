@@ -137,6 +137,7 @@ public class KontaktBlatt extends Composite implements ElexisEventListener, IAct
 		Composite cTypes = tk.createComposite(body, SWT.BORDER);
 		for (int i = 0; i < types.length; i++) {
 			bTypes[i] = tk.createButton(cTypes, typLabels[i], SWT.CHECK);
+			bTypes[i].setData("TEST_COMP_NAME", "Elexis_Core_UI_KontaktBlatt_"+types[i]);
 			bTypes[i].addSelectionListener(tba);
 			bTypes[i].setData(types[i]);
 		}

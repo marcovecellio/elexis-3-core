@@ -159,14 +159,17 @@ public class LaborView extends ViewPart implements ISaveablePart2 {
 		setTitleImage(Images.IMG_VIEW_LABORATORY.getImage());
 		
 		tabFolder = new CTabFolder(parent, SWT.TOP);
+		tabFolder.setData("TEST_COMP_NAME", "Elexis_Core_UI_LaborView_CTab");
 		tabFolder.setLayout(new FillLayout());
 		
 		final CTabItem resultsTabItem = new CTabItem(tabFolder, SWT.NULL);
+		resultsTabItem.setData("TEST_COMP_NAME", "Elexis_Core_UI_LaborView_resultsTabItem");
 		resultsTabItem.setText("Resultate");
 		resultsComposite = new LaborResultsComposite(tabFolder, SWT.NONE);
 		resultsTabItem.setControl(resultsComposite);
 		
 		final CTabItem ordersTabItem = new CTabItem(tabFolder, SWT.NULL);
+		ordersTabItem.setData("TEST_COMP_NAME", "Elexis_Core_UI_LaborView_ordersTabItem");
 		ordersTabItem.setText("Verordnungen");
 		ordersComposite = new LaborOrdersComposite(tabFolder, SWT.NONE);
 		ordersTabItem.setControl(ordersComposite);

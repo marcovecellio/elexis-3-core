@@ -86,6 +86,7 @@ public class AUF2 extends ViewPart implements IActivationListener {
 		// setTitleImage(Desk.getImage(ICON));
 		setPartName(Messages.AUF2_certificate); //$NON-NLS-1$
 		tv = new TableViewer(parent);
+		tv.setData("TEST_COMP_NAME", "Elexis_Core_UI_AUF2_TV");
 		tv.setLabelProvider(new DefaultLabelProvider());
 		tv.setContentProvider(new AUFContentProvider());
 		makeActions();

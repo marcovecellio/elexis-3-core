@@ -66,6 +66,7 @@ public class ArtikelView extends ViewPart implements IActivationListener, ISavea
 	public void createPartControl(Composite parent){
 		parent.setLayout(new FillLayout());
 		ctab = new CTabFolder(parent, SWT.NONE);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_ArtikelView_CTab");
 		importers = new Hashtable<String, ImporterPage>();
 		addPagesFor(ExtensionPointConstantsUi.VERRECHNUNGSCODE); //$NON-NLS-1$
 		if (ctab.getItemCount() > 0) {
@@ -88,6 +89,7 @@ public class ArtikelView extends ViewPart implements IActivationListener, ISavea
 								(CodeSelectorFactory) ce
 									.createExecutableExtension("CodeSelectorFactory"); //$NON-NLS-1$
 							String a = ce.getAttribute("ImporterClass"); //$NON-NLS-1$
+							System.out.println("ArtikelView addSelectionListener"+a);
 							ImporterPage ip = null;
 							if (a != null) {
 								ip = (ImporterPage) ce.createExecutableExtension("ImporterClass"); //$NON-NLS-1$
@@ -187,6 +189,7 @@ public class ArtikelView extends ViewPart implements IActivationListener, ISavea
 						(CodeSelectorFactory) ce.createExecutableExtension("CodeSelectorFactory");
 					MasterDetailsPage page = new MasterDetailsPage(ctab, csf, d);
 					CTabItem ct = new CTabItem(ctab, SWT.None);
+					ct.setData("TEST_COMP_NAME", "Elexis_Core_UI_Artikel_CodeSelectorFactory");
 					ct.setText(d.getTitle());
 					ct.setControl(page);
 					ct.setData(d);
@@ -198,6 +201,7 @@ public class ArtikelView extends ViewPart implements IActivationListener, ISavea
 				}
 				d = (IDetailDisplay) ce.createExecutableExtension("CodeDetailDisplay");
 				CTabItem ct = new CTabItem(ctab, SWT.NONE);
+				ct.setData("TEST_COMP_NAME", "Elexis_Core_UI_Artikel_CodeDetailDisplay");
 				ct.setText(d.getTitle());
 				ct.setData(KEY_CE, ce);
 				ct.setData(KEY_DETAIL, d);
@@ -247,7 +251,8 @@ public class ArtikelView extends ViewPart implements IActivationListener, ISavea
 			setLayout(new FillLayout());
 			sash = new SashForm(this, SWT.NONE);
 			cv = new CommonViewer();
-			cv.create(master.createViewerConfigurer(cv), sash, SWT.NONE, getViewSite());
+			ViewerConfigurer masterViewer = master.createViewerConfigurer(cv);
+			cv.create(masterViewer, sash, SWT.NONE, getViewSite());
 			// cv.getViewerWidget().addSelectionChangedListener(
 			// GlobalEventDispatcher.getInstance().getDefaultListener());
 			/* Composite page= */detail.createDisplay(sash, getViewSite());

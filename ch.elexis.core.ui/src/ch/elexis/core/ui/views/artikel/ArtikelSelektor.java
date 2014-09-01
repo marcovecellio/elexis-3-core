@@ -63,6 +63,7 @@ public class ArtikelSelektor extends ViewPart implements ISaveablePart2 {
 	public void createPartControl(final Composite parent){
 		parent.setLayout(new GridLayout());
 		ctab = new CTabFolder(parent, SWT.NONE);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_ArtikelSelektor_CTab");
 		ctab.setLayoutData(SWTHelper.getFillGridData(1, true, 1, true));
 		java.util.List<IConfigurationElement> list =
 			Extensions.getExtensions(ExtensionPointConstantsUi.VERRECHNUNGSCODE); //$NON-NLS-1$
@@ -73,6 +74,7 @@ public class ArtikelSelektor extends ViewPart implements ISaveablePart2 {
 					CodeSelectorFactory cs =
 						(CodeSelectorFactory) ice.createExecutableExtension("CodeSelectorFactory"); //$NON-NLS-1$
 					CTabItem ci = new CTabItem(ctab, SWT.NONE);
+					ci.setData("TEST_COMP_NAME", "Elexis_Core_UI_ArtikelSelektor_"+ice.getName());
 					ci.setText(cs.getCodeSystemName());
 					ci.setData("csf", cs); //$NON-NLS-1$
 				} catch (Exception ex) {

@@ -44,12 +44,14 @@ public class TemplatePrintView extends ViewPart {
 	@Override
 	public void createPartControl(Composite parent){
 		ctab = new CTabFolder(parent, SWT.BOTTOM);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_TemplatePrintView_CTab");
 		ctab.setLayout(new FillLayout());
 		
 	}
 	
 	CTabItem addItem(final String template, final String title, final Kontakt adressat){
 		CTabItem ret = new CTabItem(ctab, SWT.NONE);
+		ret.setData("TEST_COMP_NAME", "Elexis_Core_UI_TemplatePrintView_"+template);
 		text = new TextContainer(getViewSite());
 		ret.setControl(text.getPlugin().createContainer(ctab, new ICallback() {
 			public void save(){}

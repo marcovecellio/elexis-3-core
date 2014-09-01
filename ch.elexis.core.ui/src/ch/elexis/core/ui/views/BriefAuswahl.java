@@ -111,6 +111,7 @@ public class BriefAuswahl extends ViewPart implements
 		body.setBackground(parent.getBackground());
 		
 		ctab = new CTabFolder(body, SWT.BOTTOM);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_BriefAuswahl_CTab");
 		ctab.setLayout(slimLayout);
 		ctab.setLayoutData(SWTHelper.getFillGridData(1, true, 1, true));
 		ctab.setBackground(parent.getBackground());
@@ -119,6 +120,7 @@ public class BriefAuswahl extends ViewPart implements
 		
 		for (String cat : cats.split(",")) {
 			CTabItem ct = new CTabItem(ctab, SWT.NONE);
+			ct.setData("TEST_COMP_NAME", "Elexis_Core_UI_BriefAuswahl_"+ct);
 			ct.setText(cat);
 			sPage page = new sPage(ctab, cat);
 			pages.add(page);
@@ -235,6 +237,7 @@ public class BriefAuswahl extends ViewPart implements
 			
 			vc.getContentProvider().startListening();
 			Button bLoad = tk.createButton(this, Messages.BriefAuswahlLoadButtonText, SWT.PUSH); //$NON-NLS-1$
+			bLoad.setData("TEST_COMP_NAME", "Elexis_Core_UI_BriefAuswahlLoad");
 			bLoad.addSelectionListener(new SelectionAdapter() {
 				@Override
 				public void widgetSelected(final SelectionEvent e){

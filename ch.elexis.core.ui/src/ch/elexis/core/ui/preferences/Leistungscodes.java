@@ -1251,6 +1251,7 @@ public class Leistungscodes extends PreferencePage implements IWorkbenchPreferen
 			boolean enabled){
 			if (actionType == -1) {
 				ToolItem toolItem = new ToolItem(parent, SWT.SEPARATOR);
+				toolItem.setData("TEST_COMP_NAME", "Elexis_Core_UI_Pref_Leistungscodes");
 				toolItem.setEnabled(false);
 			} else {
 				ImageRegistry imageRegistry = UiDesk.getImageRegistry();

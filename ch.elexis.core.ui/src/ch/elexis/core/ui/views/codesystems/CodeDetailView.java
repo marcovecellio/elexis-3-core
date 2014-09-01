@@ -62,6 +62,7 @@ public class CodeDetailView extends ViewPart implements IActivationListener, ISa
 	public void createPartControl(Composite parent){
 		parent.setLayout(new FillLayout());
 		ctab = new CTabFolder(parent, SWT.NONE);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_CodeDetailView_CTab");
 		importers = new Hashtable<String, ImporterPage>();
 		addCustomBlocksPage();
 		importers.put(ctab.getItem(0).getText(), new BlockImporter());
@@ -98,6 +99,7 @@ public class CodeDetailView extends ViewPart implements IActivationListener, ISa
 		BlockDetailDisplay bdd = new BlockDetailDisplay();
 		MasterDetailsPage page = new MasterDetailsPage(ctab, cs, bdd);
 		CTabItem ct = new CTabItem(ctab, SWT.NONE);
+		ct.setData("TEST_COMP_NAME", "Elexis_Core_UI_CodeDetailView_"+cs.getCodeSystemCode());
 		ct.setText(bdd.getTitle());
 		ct.setControl(page);
 		ct.setData(bdd);
@@ -171,6 +173,7 @@ public class CodeDetailView extends ViewPart implements IActivationListener, ISa
 				}
 				MasterDetailsPage page = new MasterDetailsPage(ctab, cs, d);
 				CTabItem ct = new CTabItem(ctab, SWT.NONE);
+				ct.setData("TEST_COMP_NAME", "Elexis_Core_UI_CodeDetailDisplay_"+cs.getCodeSystemCode());
 				ct.setText(d.getTitle());
 				ct.setControl(page);
 				ct.setData(d);

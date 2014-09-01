@@ -55,10 +55,12 @@ public class Importer extends TitleAreaDialog {
 	@Override
 	protected Control createDialogArea(Composite parent){
 		ctab = new CTabFolder(parent, SWT.BOTTOM);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_Importer_CTab");
 		List<ImporterPage> importers = Extensions.getClasses(ext, "Class"); //$NON-NLS-1$
 		for (ImporterPage p : importers) {
 			if (p != null) {
 				CTabItem item = new CTabItem(ctab, SWT.NONE);
+				item.setData("TEST_COMP_NAME", "Elexis_Core_UI_Importers_TabItem");
 				item.setText(p.getTitle());
 				item.setControl(p.createPage(ctab));
 				item.setData(p);

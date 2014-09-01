@@ -61,6 +61,7 @@ public class LeistungenView extends ViewPart implements IActivationListener, ISa
 		
 		parent.setLayout(new GridLayout());
 		ctab = new CTabFolder(parent, SWT.BOTTOM);
+		ctab.setData("TEST_COMP_NAME", "Elexis_Core_UI_LeistungenView_CTab");
 		ctab.setLayoutData(SWTHelper.getFillGridData(1, true, 1, true));
 		ctab.setSimple(false);
 		ctab.setMRUVisible(true);
@@ -108,6 +109,7 @@ public class LeistungenView extends ViewPart implements IActivationListener, ISa
 		
 		BlockSelector cs = new BlockSelector();
 		CTabItem ct = new CTabItem(ctab, SWT.NONE);
+		ct.setData("TEST_COMP_NAME", "Elexis_Core_UI_CodeSelectorFactory_"+cs.getCodeSystemCode());
 		ICodeElement ics = (ICodeElement) CoreHub.poFactory.createTemplate(Leistungsblock.class);
 		if (ics == null) {
 			SWTHelper.alert(CAPTION_ERROR, "ICodeElement=null"); //$NON-NLS-1$
