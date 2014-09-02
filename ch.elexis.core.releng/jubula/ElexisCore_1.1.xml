@@ -1427,6 +1427,164 @@
             <type xsi:nil="true"/>
             <logicalName>c0485cc0282643e389ed9afde8b82a39</logicalName>
           </association>
+          <association>
+            <technicalName>
+              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
+              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.artikelview</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>Elexis_Core_UI_ArtikelView_CTab</hierarchyName>
+              <alternativeDisplayName>Elexis_Core_UI_ArtikelView_CTab ("Eigenartikel","Artikelstamm","Medical",...)</alternativeDisplayName>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>408409534fa546caac00938063b6d050</logicalName>
+          </association>
+          <association>
+            <technicalName>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_1</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_10</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_11</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_12</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_2</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_3</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_4</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_5</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_6</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_7</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_8</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_9</neighbour>
+              <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
+              <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.custom.CBanner_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.CoolBar_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.ToolBar_2</hierarchyName>
+              <hierarchyName>ch.elexis.ArtikelPerspektive</hierarchyName>
+              <alternativeDisplayName xsi:nil="true"/>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>6928dd239c494e14bec41abf4a974dd4</logicalName>
+          </association>
+          <association>
+            <technicalName>
+              <componentClassName>org.eclipse.swt.custom.CTabFolder</componentClassName>
+              <supportedClassName>org.eclipse.swt.custom.CTabFolder</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>Elexis_Core_UI_LeistungenView_CTab</hierarchyName>
+              <alternativeDisplayName>Elexis_Core_UI_LeistungenView_CTab ("Block","Eigenleistung","Eigenartikel",...)</alternativeDisplayName>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>4df947f640aa489d80827de83f0c1b43</logicalName>
+          </association>
+          <association>
+            <technicalName>
+              <neighbour>ch.elexis.core.ui.selectors.SelectorPanel_1</neighbour>
+              <componentClassName>org.eclipse.swt.widgets.Table</componentClassName>
+              <supportedClassName>org.eclipse.swt.widgets.Table</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>Elexis_Core_UI_LeistungenView_CTab</hierarchyName>
+              <hierarchyName>ch.elexis.core.ui.views.codesystems.CodeSelectorFactory$cPage_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Group_3</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Table_1</hierarchyName>
+              <alternativeDisplayName>Table</alternativeDisplayName>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>d9c03f08edb645a3b58ed2fed8d06adf</logicalName>
+          </association>
+          <association>
+            <technicalName>
+              <neighbour>org.eclipse.swt.widgets.Composite_1</neighbour>
+              <neighbour>org.eclipse.swt.widgets.Label_1</neighbour>
+              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
+              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>Elexis_Core_UI_LeistungenView_CTab</hierarchyName>
+              <hierarchyName>ch.elexis.core.ui.views.codesystems.CodeSelectorFactory$cPage_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Group_3</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.core.ui.selectors.SelectorPanel_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.core.ui.selectors.TextField_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
+              <alternativeDisplayName>Text Component</alternativeDisplayName>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>fddce7c3a79e4bcd92cc18e420ac448a</logicalName>
+          </association>
+          <association>
+            <technicalName>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_1</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_2</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_3</neighbour>
+              <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
+              <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.LeistungenView</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>Elexis_Core_UI_LeistungenView_CTab</hierarchyName>
+              <hierarchyName>ch.elexis.core.ui.views.codesystems.CodeSelectorFactory$cPage_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.custom.SashForm_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Group_3</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>ch.elexis.core.ui.selectors.SelectorPanel_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.ToolBar_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.ToolItem_2</hierarchyName>
+              <alternativeDisplayName>Toolbar Item</alternativeDisplayName>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>a7a04b403d69428da5ab9b277fbf0288</logicalName>
+          </association>
+          <association>
+            <technicalName>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_1</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_10</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_11</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_12</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_2</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_3</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_4</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_5</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_6</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_7</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_8</neighbour>
+              <neighbour>org.eclipse.swt.widgets.ToolItem_9</neighbour>
+              <componentClassName>org.eclipse.swt.widgets.ToolItem</componentClassName>
+              <supportedClassName>org.eclipse.swt.widgets.ToolItem</supportedClassName>
+              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.custom.CBanner_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.CoolBar_1</hierarchyName>
+              <hierarchyName>org.eclipse.swt.widgets.ToolBar_2</hierarchyName>
+              <hierarchyName>ch.elexis.PatientPerspective</hierarchyName>
+              <alternativeDisplayName xsi:nil="true"/>
+            </technicalName>
+            <type xsi:nil="true"/>
+            <logicalName>ba5473899ce64b31825e640c92e6a8f6</logicalName>
+          </association>
           <category>
             <name>Patients</name>
             <association>
@@ -2525,29 +2683,6 @@
             </technicalName>
             <type xsi:nil="true"/>
           </association>
-          <association>
-            <technicalName>
-              <neighbour>org.eclipse.swt.widgets.Text_1</neighbour>
-              <neighbour>org.eclipse.swt.widgets.Text_2</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_1</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_2</neighbour>
-              <neighbour>org.eclipse.ui.forms.widgets.Hyperlink_3</neighbour>
-              <componentClassName>org.eclipse.swt.widgets.Text</componentClassName>
-              <supportedClassName>org.eclipse.swt.widgets.Text</supportedClassName>
-              <hierarchyName>org.eclipse.swt.widgets.Shell_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>ch.elexis.PatListView</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Composite_1</hierarchyName>
-              <hierarchyName>org.eclipse.swt.widgets.Text_1</hierarchyName>
-              <alternativeDisplayName>Text Component</alternativeDisplayName>
-            </technicalName>
-            <type xsi:nil="true"/>
-          </association>
           <category>
             <name>Abrechnung</name>
           </category>
@@ -2788,21 +2923,6 @@
             <hasOwnTestdata>true</hasOwnTestdata>
           </usedTestcase>
         </teststep>
-        <interfaceLocked>false</interfaceLocked>
-      </testcase>
-      <testcase>
-        <name>tst</name>
-        <comment xsi:nil="true"/>
-        <GUID>feb3e97bb8344570ad8006bb8cffa3e1</GUID>
-        <generated>false</generated>
-        <active>true</active>
-        <taskId xsi:nil="true"/>
-        <trackedModification>
-          <key>1409400913562</key>
-          <value>created</value>
-        </trackedModification>
-        <testdata/>
-        <datafile xsi:nil="true"/>
         <interfaceLocked>false</interfaceLocked>
       </testcase>
     </category>
@@ -12227,6 +12347,50 @@
           <generated>false</generated>
           <active>true</active>
           <taskId xsi:nil="true"/>
+          <trackedModification>
+            <key>1409604769088</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604065241</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604059777</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604010504</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603996810</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603906166</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603564829</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603551196</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603542099</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602987353</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602976859</key>
+            <value>modified</value>
+          </trackedModification>
           <parameterDescription>
             <name>NAME</name>
             <type>java.lang.String</type>
@@ -12266,7 +12430,7 @@
             <usedTestcase>
               <name>Select tab "Artikelstamm"</name>
               <comment xsi:nil="true"/>
-              <GUID>f430274296364b3195f95d4ce8aecc84</GUID>
+              <GUID>820dd27228a045d680d597ad2aa72617</GUID>
               <generated>false</generated>
               <active>true</active>
               <taskId xsi:nil="true"/>
@@ -12295,7 +12459,7 @@
               <overriddenNames>
                 <propagated>false</propagated>
                 <originalName>8ab6b08d1a4d08f3011a4d09a497002b</originalName>
-                <newName>e33846acf1a14066b18c6a6ac9f8913f</newName>
+                <newName>4df947f640aa489d80827de83f0c1b43</newName>
               </overriddenNames>
             </usedTestcase>
           </teststep>
@@ -12326,6 +12490,39 @@
                 <originalName>e6b18dcce2af4d559d20b91d4c512bd1</originalName>
                 <newName>0c1c228010fd43a38f8c120dae2bca1d</newName>
               </overriddenNames>
+            </usedTestcase>
+          </teststep>
+          <teststep>
+            <usedTestcase>
+              <name>Refresh Artikel</name>
+              <comment xsi:nil="true"/>
+              <GUID>2f77c2b694d5407f9c857e231541dae2</GUID>
+              <generated>false</generated>
+              <active>true</active>
+              <taskId xsi:nil="true"/>
+              <datafile xsi:nil="true"/>
+              <testcaseGuid>8ab6b083181d393b01181dac453700bd</testcaseGuid>
+              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
+              <hasOwnTestdata>false</hasOwnTestdata>
+              <overriddenNames>
+                <propagated>false</propagated>
+                <originalName>8ab6b08d1a4d08f3011a4d09a4930022</originalName>
+                <newName>a7a04b403d69428da5ab9b277fbf0288</newName>
+              </overriddenNames>
+            </usedTestcase>
+          </teststep>
+          <teststep>
+            <usedTestcase>
+              <name>Wait Some time</name>
+              <comment xsi:nil="true"/>
+              <GUID>570432bad258485db6c07c58c8990949</GUID>
+              <generated>false</generated>
+              <active>true</active>
+              <taskId xsi:nil="true"/>
+              <datafile xsi:nil="true"/>
+              <testcaseGuid>2cc82a65d808499fb219408a83968851</testcaseGuid>
+              <projectGuid>b80640b58118457d83cc1cdfdd69410e</projectGuid>
+              <hasOwnTestdata>false</hasOwnTestdata>
             </usedTestcase>
           </teststep>
           <teststep>
@@ -13919,6 +14116,78 @@
           <active>true</active>
           <taskId xsi:nil="true"/>
           <trackedModification>
+            <key>1409605215443</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604792642</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604575915</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604547181</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603390351</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603344934</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603319107</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409603301607</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602907753</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602879162</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602695171</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602691537</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602676932</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602661644</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602647520</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602586524</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602576307</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409602571652</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
             <key>1409409653000</key>
             <value>modified</value>
           </trackedModification>
@@ -14058,22 +14327,9 @@
           </teststep>
           <teststep>
             <usedTestcase>
-              <name>Open View Artikel</name>
+              <name>Select Tab Artikelstamm</name>
               <comment xsi:nil="true"/>
-              <GUID>8a03fc0ea3ac464c952652cb4a40a8dd</GUID>
-              <generated>false</generated>
-              <active>true</active>
-              <taskId xsi:nil="true"/>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>3ca416c67277453ca1c6d724ff916ec0</testcaseGuid>
-              <hasOwnTestdata>false</hasOwnTestdata>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
-              <name>Select tab "Artikel"</name>
-              <comment xsi:nil="true"/>
-              <GUID>4d01c79931f94389a89af17834716519</GUID>
+              <GUID>dfb43c52c74049fa9b5f08be38902ebd</GUID>
               <generated>false</generated>
               <active>true</active>
               <taskId xsi:nil="true"/>
@@ -14082,7 +14338,7 @@
                   <data columnCount="1">
                     <data>
                       <language>de_DE</language>
-                      <value>'*Artikel'</value>
+                      <value>Artikelstamm</value>
                     </data>
                   </data>
                   <data columnCount="2">
@@ -14102,7 +14358,7 @@
               <overriddenNames>
                 <propagated>false</propagated>
                 <originalName>8ab6b08d1a4d08f3011a4d09a497002b</originalName>
-                <newName>daf4a1f9abc74c2c91dc6f6feef95f50</newName>
+                <newName>408409534fa546caac00938063b6d050</newName>
               </overriddenNames>
             </usedTestcase>
           </teststep>
@@ -14132,43 +14388,6 @@
           </teststep>
           <teststep>
             <usedTestcase>
-              <name>Select tab "Artikelstamm"</name>
-              <comment xsi:nil="true"/>
-              <GUID>8a6fe8b21a274b14b97a305069751cde</GUID>
-              <generated>false</generated>
-              <active>true</active>
-              <taskId xsi:nil="true"/>
-              <testdata>
-                <row rowCount="1">
-                  <data columnCount="1">
-                    <data>
-                      <language>de_DE</language>
-                      <value>Artikelstamm</value>
-                    </data>
-                  </data>
-                  <data columnCount="2">
-                    <data>
-                      <language>de_DE</language>
-                      <value>equals</value>
-                    </data>
-                  </data>
-                </row>
-                <uniqueIds>8ab6b083154b8c1601154b91d20f012f</uniqueIds>
-                <uniqueIds>8ab6b083181dc1bc01181dcfdd7f0019</uniqueIds>
-              </testdata>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>8ab6b083150339b501150364b007098c</testcaseGuid>
-              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
-              <hasOwnTestdata>true</hasOwnTestdata>
-              <overriddenNames>
-                <propagated>false</propagated>
-                <originalName>8ab6b08d1a4d08f3011a4d09a497002b</originalName>
-                <newName>e9512a54cf3440858cdafa802938db58</newName>
-              </overriddenNames>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
               <name>Create Screenshot of Tab Artikelstamm</name>
               <comment xsi:nil="true"/>
               <GUID>817bea40db2b4851aa23adc934d2f36a</GUID>
@@ -14189,79 +14408,6 @@
               <datafile xsi:nil="true"/>
               <testcaseGuid>7eb5f0389f0344989f68e011800b7a3e</testcaseGuid>
               <hasOwnTestdata>true</hasOwnTestdata>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
-              <name>Re-Select tab "Artikel"</name>
-              <comment xsi:nil="true"/>
-              <GUID>7f9bcd44abdd4af0b9fd4fdf067a3ed9</GUID>
-              <generated>false</generated>
-              <active>true</active>
-              <taskId xsi:nil="true"/>
-              <testdata>
-                <row rowCount="1">
-                  <data columnCount="1">
-                    <data>
-                      <language>de_DE</language>
-                      <value>'*Artikel'</value>
-                    </data>
-                  </data>
-                  <data columnCount="2">
-                    <data>
-                      <language>de_DE</language>
-                      <value>equals</value>
-                    </data>
-                  </data>
-                </row>
-                <uniqueIds>8ab6b083154b8c1601154b91d20f012f</uniqueIds>
-                <uniqueIds>8ab6b083181dc1bc01181dcfdd7f0019</uniqueIds>
-              </testdata>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>8ab6b083150339b501150364b007098c</testcaseGuid>
-              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
-              <hasOwnTestdata>true</hasOwnTestdata>
-              <overriddenNames>
-                <propagated>false</propagated>
-                <originalName>8ab6b08d1a4d08f3011a4d09a497002b</originalName>
-                <newName>daf4a1f9abc74c2c91dc6f6feef95f50</newName>
-              </overriddenNames>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
-              <name>Wait for Context Menu</name>
-              <comment>Max 5 seconds</comment>
-              <GUID>6032a6b8f54b474ebfc584d730b9e673</GUID>
-              <generated>false</generated>
-              <active>false</active>
-              <taskId xsi:nil="true"/>
-              <testdata>
-                <row rowCount="1">
-                  <data columnCount="1">
-                    <data>
-                      <language>de_DE</language>
-                      <value>1</value>
-                    </data>
-                  </data>
-                  <data columnCount="2">
-                    <data>
-                      <language>de_DE</language>
-                      <value>Import.*</value>
-                    </data>
-                  </data>
-                </row>
-                <uniqueIds>6baf3143d28248199e862f5358ba8a44</uniqueIds>
-                <uniqueIds>dad0e39690184af98834041c63d482d2</uniqueIds>
-              </testdata>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>64f30f14e54247d489e19bae7212fde6</testcaseGuid>
-              <hasOwnTestdata>true</hasOwnTestdata>
-              <overriddenNames>
-                <propagated>false</propagated>
-                <originalName>8ab6b08d1a4d08f3011a4d09a4930022</originalName>
-                <newName>eca93312f4ee4ffbb07a37f42bf43ef4</newName>
-              </overriddenNames>
             </usedTestcase>
           </teststep>
           <teststep>
@@ -14394,31 +14540,6 @@
           </teststep>
           <teststep>
             <usedTestcase>
-              <name>Copy filename to clipboard</name>
-              <comment xsi:nil="true"/>
-              <GUID>86a9e7d283904b70b2e2982ab0c3771e</GUID>
-              <generated>false</generated>
-              <active>false</active>
-              <taskId xsi:nil="true"/>
-              <testdata>
-                <row rowCount="1">
-                  <data columnCount="1">
-                    <data>
-                      <language>de_DE</language>
-                      <value>$ARTIKEL_STAMM</value>
-                    </data>
-                  </data>
-                </row>
-                <uniqueIds>8ab6b083225416bc012254a0d58c000e</uniqueIds>
-              </testdata>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>8ab6b083225416bc012254a0450a000c</testcaseGuid>
-              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
-              <hasOwnTestdata>true</hasOwnTestdata>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
               <name>Select all (old value)</name>
               <comment xsi:nil="true"/>
               <GUID>ac03fd5aca26462bafeecdd7541aa71d</GUID>
@@ -14455,45 +14576,6 @@
               <taskId xsi:nil="true"/>
               <datafile xsi:nil="true"/>
               <testcaseGuid>2cc82a65d808499fb219408a83968851</testcaseGuid>
-              <hasOwnTestdata>false</hasOwnTestdata>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
-              <name/>
-              <comment xsi:nil="true"/>
-              <GUID>9115eeefb10b43f4b79e5002aea982e5</GUID>
-              <generated>false</generated>
-              <active>false</active>
-              <taskId xsi:nil="true"/>
-              <testdata>
-                <row rowCount="1">
-                  <data columnCount="1">
-                    <data>
-                      <language>de_DE</language>
-                      <value>=a41daf8e246e4251ac57829d882763c0</value>
-                    </data>
-                  </data>
-                </row>
-                <uniqueIds>8ab6b08316c3bbe20116c3bcaa150003</uniqueIds>
-              </testdata>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>8ab6b08316c3bbe20116c3bc6a8a0001</testcaseGuid>
-              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
-              <hasOwnTestdata>true</hasOwnTestdata>
-            </usedTestcase>
-          </teststep>
-          <teststep>
-            <usedTestcase>
-              <name>Ctrl-V is more reliable (and faster) than entering text</name>
-              <comment xsi:nil="true"/>
-              <GUID>0317604534434005974fd20027f3663d</GUID>
-              <generated>false</generated>
-              <active>false</active>
-              <taskId xsi:nil="true"/>
-              <datafile xsi:nil="true"/>
-              <testcaseGuid>8ab6b083150339b501150364afe807de</testcaseGuid>
-              <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
               <hasOwnTestdata>false</hasOwnTestdata>
             </usedTestcase>
           </teststep>
@@ -16975,6 +17057,22 @@
           <active>true</active>
           <taskId xsi:nil="true"/>
           <trackedModification>
+            <key>1409604729783</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604631752</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604593577</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
+            <key>1409604354366</key>
+            <value>modified</value>
+          </trackedModification>
+          <trackedModification>
             <key>1409500800636</key>
             <value>modified</value>
           </trackedModification>
@@ -17005,6 +17103,23 @@
           <selectedAut>ID_A_385339</selectedAut>
           <stepDelay>0</stepDelay>
           <commandLineParameter xsi:nil="true"/>
+          <usedTestcase>
+            <name>Patientenperspektive anklicken</name>
+            <comment xsi:nil="true"/>
+            <GUID>83137dbdb2c94a3da54b519d3a014b44</GUID>
+            <generated>false</generated>
+            <active>true</active>
+            <taskId xsi:nil="true"/>
+            <datafile xsi:nil="true"/>
+            <testcaseGuid>8ab6b083181d393b01181dac453700bd</testcaseGuid>
+            <projectGuid>8ab6b083150339b501150364afb90435</projectGuid>
+            <hasOwnTestdata>false</hasOwnTestdata>
+            <overriddenNames>
+              <propagated>false</propagated>
+              <originalName>8ab6b08d1a4d08f3011a4d09a4930022</originalName>
+              <newName>ba5473899ce64b31825e640c92e6a8f6</newName>
+            </overriddenNames>
+          </usedTestcase>
           <usedTestcase>
             <name>Open Leistungen First (LOINC)</name>
             <comment xsi:nil="true"/>
@@ -17507,6 +17622,13 @@
       <compName>Elexis300qualifier00719_Icpc_Alle_Text_1_txf</compName>
     </componentNames>
     <componentNames>
+      <compType>guidancer.concrete.TabbedPane</compType>
+      <GUID>408409534fa546caac00938063b6d050</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300a201408211304_Elexis_Core_UI_ArtikelView_CTab_tpn</compName>
+    </componentNames>
+    <componentNames>
       <compType>guidancer.abstract.Widget</compType>
       <GUID>40e202931f244b05894258c1e07295fb</GUID>
       <creationContext>OVERRIDDEN_NAME</creationContext>
@@ -17589,6 +17711,13 @@
       <creationContext>OVERRIDDEN_NAME</creationContext>
       <refGuid xsi:nil="true"/>
       <compName>Kontact_Auwahl_tbl</compName>
+    </componentNames>
+    <componentNames>
+      <compType>guidancer.concrete.TabbedPane</compType>
+      <GUID>4df947f640aa489d80827de83f0c1b43</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300qualifier0070_Elexis_Core_UI_LeistungenView_CTab_tpn</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.concrete.Button</compType>
@@ -17722,6 +17851,13 @@
       <creationContext>STEP</creationContext>
       <refGuid xsi:nil="true"/>
       <compName>Kontaktauswählen_Table_2_tbl</compName>
+    </componentNames>
+    <componentNames>
+      <compType>org.eclipse.swt.widgets.ToolItem</compType>
+      <GUID>6928dd239c494e14bec41abf4a974dd4</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300a201408211304_ArtikelPerspektive_tbi</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.abstract.Widget</compType>
@@ -17983,6 +18119,13 @@
       <compName>Elexis300a201405151339_Install_Edit_btn</compName>
     </componentNames>
     <componentNames>
+      <compType>org.eclipse.swt.widgets.ToolItem</compType>
+      <GUID>a7a04b403d69428da5ab9b277fbf0288</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300qualifier0074_Artikelstamm_Alle_ToolItem_2_tbi</compName>
+    </componentNames>
+    <componentNames>
       <compType>guidancer.abstract.Widget</compType>
       <GUID>a7dcac63959d4e328806ab85dc304eda</GUID>
       <creationContext>OVERRIDDEN_NAME</creationContext>
@@ -18079,6 +18222,13 @@
       <creationContext>STEP</creationContext>
       <refGuid xsi:nil="true"/>
       <compName>Elexis300qualifier0072_Table_1_tbl</compName>
+    </componentNames>
+    <componentNames>
+      <compType>org.eclipse.swt.widgets.ToolItem</compType>
+      <GUID>ba5473899ce64b31825e640c92e6a8f6</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300a201408211304_PatientPerspective_tbi</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.concrete.Button</compType>
@@ -18263,6 +18413,13 @@
       <compName>ShowView_OkButton_grc</compName>
     </componentNames>
     <componentNames>
+      <compType>guidancer.concrete.Table</compType>
+      <GUID>d9c03f08edb645a3b58ed2fed8d06adf</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300qualifier0072_Artikelstamm_Alle_Table_1_tbl</compName>
+    </componentNames>
+    <componentNames>
       <compType>guidancer.concrete.TabbedPane</compType>
       <GUID>daf4a1f9abc74c2c91dc6f6feef95f50</GUID>
       <creationContext>STEP</creationContext>
@@ -18415,6 +18572,13 @@
       <creationContext>OVERRIDDEN_NAME</creationContext>
       <refGuid xsi:nil="true"/>
       <compName>CreatePatient_ChristianName_cti</compName>
+    </componentNames>
+    <componentNames>
+      <compType>guidancer.concrete.TextComponent</compType>
+      <GUID>fddce7c3a79e4bcd92cc18e420ac448a</GUID>
+      <creationContext>STEP</creationContext>
+      <refGuid xsi:nil="true"/>
+      <compName>Elexis300qualifier0071_Artikelstamm_Alle_Text_1_txf</compName>
     </componentNames>
     <componentNames>
       <compType>guidancer.abstract.Widget</compType>
@@ -77630,6 +77794,2283 @@
         <attribute>
           <key>testsuiteStatus</key>
           <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>autrun</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>fbf399b85bbe4ab798ff21475e09b63f</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:05:11.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:58</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:05:11.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>2</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>179</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>239</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>2</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:03:12.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>54af8308229248a98568db84c9361765</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:20:49.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:02:25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:20:49.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>30</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>234</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>231</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:18:24.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>4b07284e64ae4e028423bbb6d57c3403</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:25:13.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:41</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:25:13.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>64</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>266</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>229</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:23:31.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>51ef38c4fe534285a0a4dc2e55b8a207</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:31:12.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:15</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:31:12.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>172</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>229</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>2</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:29:56.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>772636c78e1f45c4b1319a070a448c0d</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:34:24.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:29</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:34:24.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>179</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>230</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>2</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:32:54.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>autrun</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>0b15bf4b80d245638cdc35d3d28dbd8c</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:43:02.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:29</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:43:02.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>2</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>178</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>233</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>2</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:41:33.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>6a5a43aa8bd7411abcf83cc5089f2dc6</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Error in Children</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>FAILED</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:46:38.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:00:28</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:46:38.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>37</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>234</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:46:10.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>5</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>546e887bf4d5472aa35bce842df8d250</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:50:16.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:00:15</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:50:16.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>50</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>50</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:50:00.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>449589f168a6444f9c1cd9567bb71807</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:51:45.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:07</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:51:45.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>172</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>172</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:50:37.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>1605d65d0a1d47b79bc80986ce64018d</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 10:54:45.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:15</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 10:54:45.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>232</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>232</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 10:53:29.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+      </testresultSummary>
+      <testresultSummary>
+        <attribute>
+          <key>almReportStatus</key>
+          <value>NOT_CONFIGURED</value>
+          <type>org.eclipse.jubula.client.core.model.ITestResultSummaryPO$AlmReportStatus</type>
+        </attribute>
+        <attribute>
+          <key>autAgentName</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autCmdParameter</key>
+          <value>-clean -vmargs -Declipse.p2.unsignedPolicy=allow -Dorg.eclipse.swt.browser.DefaultType=mozilla  -Dch.elexis.username=007 -Dch.elexis.password=topsecret -Delexis-run-mode=RunFromScratch -Duser.language=de -Duser.region=DE</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autConfigName</key>
+          <value>elexis-linux@localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autHostname</key>
+          <value>localhost</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autId</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autName</key>
+          <value>elexis</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autOS</key>
+          <value>Linux</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>autToolkit</key>
+          <value>com.bredexsw.guidancer.RcpToolkitPlugin</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentDetail</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>commentTitle</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutConfigGuid</key>
+          <value>6b5fdb40032a415eb776aef49f278b25</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalAutGuid</key>
+          <value>417a7311210f4fb2ac3ac8b14ef35a2b</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalGuid</key>
+          <value>834868c2b8124df6b2b80251a105695e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalMonitoringId</key>
+          <value>none selected</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectGuid</key>
+          <value>b80640b58118457d83cc1cdfdd69410e</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalProjectID</key>
+          <value>385335</value>
+          <type>java.lang.Long</type>
+        </attribute>
+        <attribute>
+          <key>internalTestJobGuid</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>internalTestsuiteGuid</key>
+          <value>db18cfe07d8e49cd8bf0a5086fe80a64</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValue</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>monitoringValueType</key>
+          <value>none</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>projectMajorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectMinorVersion</key>
+          <value>1</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>projectName</key>
+          <value>ElexisCore 1.1</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>reportWritten</key>
+          <value>false</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>statusString</key>
+          <value>Successfully tested</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobName</key>
+          <value xsi:nil="true"/>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testJobStartTime</key>
+          <value xsi:nil="true"/>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testRunState</key>
+          <value>OK</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDate</key>
+          <value>2014-09-01 11:01:52.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteDuration</key>
+          <value>00:01:17</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEndTime</key>
+          <value>2014-09-01 11:01:52.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteEventHandlerTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExecutedTeststeps</key>
+          <value>232</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteExpectedTeststeps</key>
+          <value>232</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteFailedTeststeps</key>
+          <value>0</value>
+          <type>int</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteLanguage</key>
+          <value>German (Germany)</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteName</key>
+          <value>SMOKETEST</value>
+          <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteRelevant</key>
+          <value>true</value>
+          <type>boolean</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStartTime</key>
+          <value>2014-09-01 11:00:35.0</value>
+          <type>java.util.Date</type>
+        </attribute>
+        <attribute>
+          <key>testsuiteStatus</key>
+          <value>1</value>
           <type>int</type>
         </attribute>
       </testresultSummary>
