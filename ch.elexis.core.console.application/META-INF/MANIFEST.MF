@@ -7,7 +7,7 @@ Bundle-Vendor: elexis.info
 Require-Bundle: org.eclipse.core.runtime,
  ch.elexis.core;bundle-version="3.0.0",
  ch.elexis.core.data;bundle-version="3.0.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Import-Package: org.eclipse.ui.services,
  org.slf4j

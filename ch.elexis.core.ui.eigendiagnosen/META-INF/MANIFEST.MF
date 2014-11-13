@@ -15,5 +15,5 @@ Require-Bundle: ch.elexis.core;bundle-version="3.0.0",
  ch.rgw.utility,
  ch.elexis.core.eigendiagnosen;bundle-version="3.0.0"
 Created-By: Buildr
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 
