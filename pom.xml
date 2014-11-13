@@ -242,18 +242,18 @@
 		<module>ch.elexis.core.ui.importer.div</module>
 		<module>ch.elexis.core.hl7.v2x</module>
 		<module>ch.rgw.utility</module>
-    <!-- now follow the unit tests in a more or less logical order -->
-    <module>ch.elexis.core.data.tests</module>
-    <module>ch.elexis.core.hl7.v2x.tests</module>
-    <module>ch.elexis.core.ui.importer.div.tests</module>
-    <module>ch.rgw.utility.tests</module>
-    <!-- the ch.elexis.core.p2site creates an zipped installable application
+		<!-- now follow the unit tests in a more or less logical order -->
+		<module>ch.rgw.utility.tests</module>
+		<module>ch.elexis.core.ui.importer.div.tests</module>
+		<module>ch.elexis.core.data.tests</module>
+		<module>ch.elexis.core.hl7.v2x.tests</module>
+		<!-- the ch.elexis.core.p2site creates an zipped installable application
 			and a p2 update site -->
 		<module>ch.elexis.core.p2site</module>
 	</modules>
 	<properties>
 		<scm_url>git@github.com:elexis/elexis-3-core.git</scm_url>
-		<tycho-version>0.20.0</tycho-version>
+		<tycho-version>0.22.0-SNAPSHOT</tycho-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<tycho-extras.version>${tycho-version}</tycho-extras.version>
 		<repo_name>elexis.3.core</repo_name>
@@ -284,7 +284,7 @@
 							</configuration>
 						</execution>
 					</executions>
-				</plugin>			
+				</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-plugin </artifactId>
@@ -314,8 +314,8 @@
 				<version>${tycho-version}</version>
 			</plugin>
 			<plugin>
-				<!-- we want to ensure that the bin directory created by the Eclipse 
-					gets cleaned, too. Without it Maven would put two versions of each class 
+				<!-- we want to ensure that the bin directory created by the Eclipse
+					gets cleaned, too. Without it Maven would put two versions of each class
 					file into the jars -->
 				<artifactId>maven-clean-plugin </artifactId>
 				<version>2.5</version>
@@ -332,8 +332,8 @@
 				<artifactId>maven-compiler-plugin </artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.7 </source>
-					<target>1.7 </target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<compilerId>jdt </compilerId>
 					<compilerArgument>-err:nullAnnot,null </compilerArgument>
 					<!-- insert your warn/err configuration here -->
@@ -358,18 +358,18 @@
 				<artifactId>target-platform-configuration </artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<!-- see http://wiki.eclipse.org/Tycho/Target_Platform we want to use 
-						the first alternative: If you are already using a target file in Eclipse, 
-						and that target file only contains "Software Site" locations (i.e. location 
-						elements with type="InstallableUnit"), use that target file for the Tycho 
-						build. This approach is the only way to share the same target platform configuration 
+					<!-- see http://wiki.eclipse.org/Tycho/Target_Platform we want to use
+						the first alternative: If you are already using a target file in Eclipse,
+						and that target file only contains "Software Site" locations (i.e. location
+						elements with type="InstallableUnit"), use that target file for the Tycho
+						build. This approach is the only way to share the same target platform configuration
 						between Tycho and Eclipse. -->
 					<target>
 						<artifact>
 							<groupId>ch.elexis</groupId>
 							<artifactId>juno-target</artifactId>
 							<version>3.0.0-SNAPSHOT</version>
-							<!-- we cannot use a classifier here, or mvn compile would file in 
+							<!-- we cannot use a classifier here, or mvn compile would file in
 								any other project!! classifier>elexis-3</classifier -->
 						</artifact>
 					</target>
@@ -419,21 +419,21 @@
 			<plugins>
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-versions-plugin </artifactId>
-					<version>${tycho-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>tycho-compiler-plugin </artifactId>
 					<version>${tycho-version}</version>
 					<configuration>
-						<optionalDependencies>ignore </optionalDependencies>
+						<optionalDependencies>ignore</optionalDependencies>
 						<compilerArguments>
 							<inlineJSR />
 							<enableJavadoc />
 							<encoding>UTF-8 </encoding>
-						</compilerArguments>
+							</compilerArguments>
 					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-versions-plugin </artifactId>
+					<version>${tycho-version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
@@ -531,6 +531,12 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>tycho-snapshots</id>
+			<url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+		</pluginRepository>
+	</pluginRepositories>
 	<scm>
 		<developerConnection>scm:git:${scm_url}</developerConnection>
 	</scm>
