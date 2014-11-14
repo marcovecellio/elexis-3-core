@@ -237,10 +237,8 @@
 		<module>ch.elexis.core.ui.icons</module>
 		<module>ch.elexis.core.ui.laboratory</module>
 		<module>ch.elexis.core.ui.medication</module>
-		<!-- does this work in compatiblity mode
 		<module>ch.elexis.core.ui.p2</module>
 		<module>ch.elexis.core.ui.p2.feature</module>
-		-->
 		<module>ch.elexis.core.ui.importer.div</module>
 		<module>ch.elexis.core.hl7.v2x</module>
 		<module>ch.rgw.utility</module>
