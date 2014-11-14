@@ -9,11 +9,18 @@
 <unit id="org.eclipse.equinox.server.core.R441patch.feature.group" version="1.0.0"/>
 <unit id="org.eclipse.rcp.feature.group" version="4.4.0.v20140925-0400"/>
 <unit id="org.eclipse.platform.ide" version="4.4.1.M20140925-0400"/>
+<unit id="org.eclipse.platform" version="4.4.0.v20140925-0400"/>
 <unit id="org.eclipse.e4.rcp.R441patch.feature.group" version="1.0.0"/>
 <unit id="org.eclipse.rcp.source.feature.group" version="4.4.0.v20140925-0400"/>
 <unit id="org.eclipse.emf.ecore.feature.group" version="2.10.1.v20140901-1043"/>
 <unit id="org.eclipse.emf.common.feature.group" version="2.10.1.v20140901-1043"/>
+
 <repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.nebula.widgets.tablecombo.feature" version="1.0.0.201409040043" />
+<unit id="org.eclipse.nebula.widgets.cdatetime.feature" version="1.0.0.201409040043" />
+</location>
+<repository location="http://download.eclipse.org/technology/nebula/archives/Q32014/release"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="jackson-core-lgpl" version="1.0.1"/>
@@ -92,7 +99,6 @@
 <unit id="ca.uhn.hapi.osgi-base.source" version="1.2.0"/>
 <unit id="org.milyn.smooks-camel" version="1.4.0"/>
 <unit id="ch.qos.logback.classic.source" version="1.0.7"/>
-<unit id="org.jdom" version="1.1.0"/>
 <unit id="ca.uhn.hapi.structures-v251.source" version="1.2.0"/>
 <unit id="batik.xml" version="1.6.0.1"/>
 <unit id="org.milyn.smooks-core.source" version="1.4.0"/>
@@ -311,6 +317,12 @@
 <unit id="org.slf4j.log4j" version="1.7.2.v20130115-1340"/>
 <unit id="org.slf4j.jul" version="1.7.2.v20121108-1250"/>
 <unit id="org.slf4j.nop" version="1.7.2.v201212060727"/>
+<unit id="org.apache.commons.httpclient" version="3.1.0.v201012070820"/>
+<unit id="org.apache.commons.codec" version="1.6.0.v201305230611"/>
+<unit id="com.google.guava" version="15.0.0.v201403281430" />
+<unit id="com.google.guava" version="12.0.0.v201212092141" />
+<unit id="ch.qos.logback.slf4j" version="1.0.7.v20121108-1250" />
+
 <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
@@ -318,7 +330,23 @@
 <unit id="org.eclipse.sapphire.platform.feature.group" version="8.0.1.201409121731"/>
 <unit id="org.eclipse.sapphire.osgi.feature.group" version="8.0.1.201409121731"/>
 <unit id="org.eclipse.sapphire.java.feature.group" version="8.0.1.201409121731"/>
+<unit id="org.eclipse.equinox.p2.transport.ecf" version="1.1.0.v20140408-1354" />
+<unit id="org.eclipse.ecf" version="3.4.0.v20140528-1625" />
+<unit id="org.eclipse.ecf.identity" version="3.4.0.v20140528-1625" />
+<unit id="org.jdom" version="1.1.1.v201101151400" />
+<!--
+luna.list:org.eclipse.equinox.p2.transport.ecf=1.1.0.v20140408-1354
+<unit id="org.eclipse.ecf" version="3.4.0.v20140827-1444" />
+
 <unit id="org.eclipse.ecf.provider.generic.datashare.feature.feature.group" version="1.0.0.v20140818-1747" />
+<unit id="org.eclipse.ecf.remoteservice.sdk.feature.feature.group" version="3.9.0.v20140818-1747"/>
+<unit id="org.eclipse.ecf.provider.filetransfer" version="3.2.200.v20140827-1444"/>
+<unit id="org.eclipse.ecf.provider.filetransfer.ssl" version="1.0.0.v20140827-1444"/>
+<unit id="org.eclipse.ecf.provider.filetransfer.httpclient4.ssl" version="1.0.0.v20140827-1444"/>
+
+<unit id="org.eclipse.ecf.provider.filetransfer" version="3.2.200.v20140827-1444" />
+<unit id="org.eclipse.ecf.filetransfer" version="3.2.200.v20140827-1444" />
+-->
 <repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
 </locations>
