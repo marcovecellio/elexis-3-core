@@ -11,6 +11,8 @@
 <unit id="org.eclipse.platform.ide" version="4.4.1.M20140925-0400"/>
 <unit id="org.eclipse.e4.rcp.R441patch.feature.group" version="1.0.0"/>
 <unit id="org.eclipse.rcp.source.feature.group" version="4.4.0.v20140925-0400"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.10.1.v20140901-1043"/>
+<unit id="org.eclipse.emf.common.feature.group" version="2.10.1.v20140901-1043"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
@@ -316,6 +318,7 @@
 <unit id="org.eclipse.sapphire.platform.feature.group" version="8.0.1.201409121731"/>
 <unit id="org.eclipse.sapphire.osgi.feature.group" version="8.0.1.201409121731"/>
 <unit id="org.eclipse.sapphire.java.feature.group" version="8.0.1.201409121731"/>
+<unit id="org.eclipse.ecf.provider.generic.datashare.feature.feature.group" version="1.0.0.v20140818-1747" />
 <repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
 </locations>
