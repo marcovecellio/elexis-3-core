@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?><target name="Juno for Elexis 3.0" sequenceNumber="47">
+	<!-- please keep this file sorted. It is so easier to track changes -->
 <locations>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20130517111416/repository/"/>
 <unit id="ca.odell.glazedlists" version="1.9.0.v201303080712"/>
-<unit id="org.apache.xml.resolver" version="1.2.0.v201005080400"/>
 <unit id="ca.odell.glazedlists.source" version="1.9.0.v201303080712"/>
 <unit id="javax.xml" version="1.3.4.v201005080400"/>
-<unit id="org.apache.xerces" version="2.9.0.v201101211617"/>
-<unit id="org.apache.commons.exec" version="1.1.0.v201301240602"/>
-<unit id="org.apache.xml.serializer" version="2.7.1.v201005080400"/>
 <unit id="org.apache.commons.codec" version="1.4.0.v201209201156"/>
-<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20130517111416/repository/"/>
+<unit id="org.apache.commons.exec" version="1.1.0.v201301240602"/>
+<unit id="org.apache.xerces" version="2.9.0.v201101211617"/>
+<unit id="org.apache.xml.resolver" version="1.2.0.v201005080400"/>
+<unit id="org.apache.xml.serializer" version="2.7.1.v201005080400"/>
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<repository location="http://download.elexis.info/mirror.4.elexis/snapshot"/>
 <unit id="ch.qos.logback.classic" version="1.0.7.v20121108-1250"/>
 <unit id="ch.qos.logback.core" version="1.0.7.v20121108-1250"/>
 <unit id="ch.qos.logback.slf4j" version="1.0.7.v20121108-1250"/>
+<unit id="com.google.guava" version="12.0.0.v201212092141"/>
 <unit id="javax.ws.rs" version="1.1.1.v20130318-1750"/>
+<unit id="org.aspectj.feature.group" version="1.7.3.20130613144500-a"/>
 <unit id="org.eclipse.emf.sdk.feature.group" version="2.8.3.v20130125-0826"/>
 <unit id="org.eclipse.equinox.executable" version="3.6.0.v20121119-201001-7P7OG2BFLWUl7UnqBnO8V4Of"/>
 <unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20121119-201001-7P7OG2BFLWUl7UnqBnO8V4Of"/>
 <unit id="org.eclipse.gyrex.features.addons.jersey.jaxrs.feature.group" version="1.0.0.v20120604-1901"/>
+<unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.nebula.cwt.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.nebula.widgets.cdatetime.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.nebula.widgets.tablecombo.feature.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.pde.junit.runtime.standalone.feature.group" version="1.1.0.v20121207-183635-7a81FKwFBBqyauz0GKeGkIx3IS70"/>
 <unit id="org.eclipse.platform.feature.group" version="3.8.1.v20130118-180812-9jF7oIBFG8eU2pim-VbIlTuQjY0RWWK3x-bv4I"/>
-<unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
 <unit id="org.slf4j.api" version="1.7.2.v20121108-1250"/>
 <unit id="org.slf4j.ext" version="1.7.2.v20121108-1250"/>
 <unit id="org.slf4j.jcl" version="1.7.2.v20130115-1340"/>
 <unit id="org.slf4j.jul" version="1.7.2.v20121108-1250"/>
 <unit id="org.slf4j.log4j" version="1.7.2.v20130115-1340"/>
 <unit id="org.slf4j.nop" version="1.7.2.v201212060727"/>
-<unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.nebula.cwt.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.nebula.widgets.cdatetime.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.nebula.widgets.tablecombo.feature.feature.group" version="0.0.0"/>
-<unit id="com.google.guava" version="12.0.0.v201212092141"/>
-<unit id="org.aspectj.feature.group" version="1.7.3.20130613144500-a"/>
-<repository location="http://download.elexis.info/mirror.4.elexis/snapshot"/>
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <repository location="http://download.elexis.info/elexis.3.3rdparty.libraries/snapshot/"/>
+</location>
+</locations>
 <unit id="ag.ion.bion.workbench.office.editor.activation" version="2.0.14"/>
 <unit id="ag.ion.bion.workbench.office.editor.activation.nl1" version="2.0.14"/>
 <unit id="ag.ion.bion.workbench.office.editor.core" version="2.0.14"/>
@@ -325,8 +328,6 @@
 <unit id="xml-resolver.source" version="1.2.0"/>
 <unit id="xom" version="1.0.0"/>
 <unit id="xpp3.min" version="1.1.3.4_O"/>
-</location>
-</locations>
 <includeBundles>
 <plugin id="org.apache.felix.gogo.runtime"/>
 <plugin id="org.eclipse.nebula.widgets.tablecombo.source"/>
@@ -418,6 +419,8 @@
 <plugin id="org.eclipse.ui.workbench.source"/>
 <plugin id="org.eclipse.equinox.p2.publisher.source"/>
 <plugin id="jul.to.slf4j.source"/>
+<plugin id="org.apache.servicemix.bundles.zxing"/>
+<plugin id="org.apache.servicemix.bundles.zxing.source"/>
 <plugin id="org.apache.lucene.source"/>
 <plugin id="org.eclipse.emf.mapping.ecore2xml"/>
 <plugin id="org.eclipse.equinox.p2.repository"/>
