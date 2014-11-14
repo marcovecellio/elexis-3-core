@@ -173,83 +173,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.p2.artifact.repository"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.director"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.engine"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.jarprocessor"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.metadata"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.metadata.repository"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.operations"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.repository"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.p2.updatechecker"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.security"
          download-size="0"
          install-size="0"
@@ -502,68 +425,10 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.p2.transport.ecf"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.core.net"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.filetransfer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.provider.filetransfer"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.identity"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.provider.filetransfer.httpclient"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.provider.filetransfer.httpclient.ssl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.provider.filetransfer.ssl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
          unpack="false"/>
 
    <plugin
@@ -669,14 +534,6 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.ecf.ssl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         fragment="true"
          unpack="false"/>
 
    <plugin
