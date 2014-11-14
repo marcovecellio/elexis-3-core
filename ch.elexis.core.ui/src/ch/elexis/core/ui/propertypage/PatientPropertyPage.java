@@ -14,8 +14,8 @@ import java.util.Date;
 import org.eclipse.core.runtime.IAdaptable;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
-import org.eclipse.nebula.widgets.cdatetime.CDT;
-import org.eclipse.nebula.widgets.cdatetime.CDateTime;
+// import org.eclipse.nebula.widgets.cdatetime.CDT;
+// import org.eclipse.nebula.widgets.cdatetime.CDateTime;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
@@ -47,7 +47,7 @@ public class PatientPropertyPage extends PropertyPage implements IWorkbenchPrope
 	private Text textFax;
 	private Text textEmail;
 	private Text textBemerkungen;
-	private CDateTime geburtsdatum;
+//	private CDateTime geburtsdatum;
 	
 	private Combo comboGeschlecht;
 	
@@ -88,9 +88,11 @@ public class PatientPropertyPage extends PropertyPage implements IWorkbenchPrope
 		
 		Label lblGeburtsdatum = new Label(comp, SWT.NONE);
 		lblGeburtsdatum.setText("Geburtsdatum");
+		/*
 		geburtsdatum =
 			new CDateTime(comp, CDT.BORDER | CDT.DROP_DOWN | CDT.DATE_MEDIUM | CDT.TEXT_TRAIL);
 		geburtsdatum.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, false, false, 1, 1));
+		*/
 		new Label(comp, SWT.NONE);
 		new Label(comp, SWT.NONE);
 		
@@ -144,7 +146,7 @@ public class PatientPropertyPage extends PropertyPage implements IWorkbenchPrope
 		super.setTitle(pat.getLabel());
 		textVorname.setText(pat.getName());
 		textNachname.setText(pat.getVorname());
-		geburtsdatum.setSelection(getGeburtsdatum());
+//		geburtsdatum.setSelection(getGeburtsdatum());
 		if (pat.getGeschlecht().trim().equalsIgnoreCase("m")) {
 			comboGeschlecht.setText(SEX_MALE);
 		} else {
@@ -179,9 +181,9 @@ public class PatientPropertyPage extends PropertyPage implements IWorkbenchPrope
 	
 	@Override
 	protected void performApply(){
-		Date bd = geburtsdatum.getSelection();
+//		Date bd = geburtsdatum.getSelection();
 		Calendar cal = Calendar.getInstance();
-		cal.setTime(bd);
+//		cal.setTime(bd);
 		
 		int geschlechtSelection = comboGeschlecht.getSelectionIndex();
 		String geschlecht;
