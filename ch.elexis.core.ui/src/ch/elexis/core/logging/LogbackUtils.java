@@ -81,7 +81,7 @@ public final class LogbackUtils {
 			return true;
 		} catch (Exception e) {
 			logger.warn("Couldn't set log level to {} for the logger '{}'", logLevelUpper,
-				loggerName, e);
+				loggerName);
 			return false;
 		}
 	}
