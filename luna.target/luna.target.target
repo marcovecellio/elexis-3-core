@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target includeMode="feature" name="Luna for Elexis 3.0" sequenceNumber="10">
+<?pde version="3.8"?><target includeMode="feature" name="Luna for Elexis 3.0" sequenceNumber="11">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.cdt.mylyn.feature.group" version="5.9.0.v20140702-2225"/>
-<unit id="org.eclipse.dltk.ruby.feature.group" version="5.0.0.201306060709"/>
-<unit id="org.eclipse.emf.compare.diagram.gmf.feature.group" version="3.0.1.201408191310"/>
-<unit id="org.eclipse.emf.compare.feature.group" version="3.0.1.201408191310"/>
-<unit id="org.eclipse.emf.compare.ide.ui.feature.group" version="3.0.1.201408191310"/>
-<unit id="org.eclipse.emf.compare.ide.ui.source.feature.group" version="3.0.1.201408191310"/>
-<unit id="org.eclipse.emf.compare.source.feature.group" version="3.0.1.201408191310"/>
-<unit id="org.eclipse.emf.compare.uml2.feature.group" version="3.0.1.201408191310"/>
-<unit id="org.eclipse.emf.ecoretools.sdk.feature.group" version="2.0.2.201409150953"/>
-<unit id="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group" version="1.4.0.20140916-1322"/>
-<unit id="org.eclipse.emf.rap.sdk.feature.group" version="2.10.1.v20140901-1055"/>
-<unit id="org.eclipse.emf.sdk.feature.group" version="2.10.1.v20140901-1055"/>
-<unit id="org.eclipse.equinox.sdk.feature.group" version="3.10.0.v20140909-1633"/>
-<unit id="org.eclipse.gyrex.features.sdk.withoutdeps.feature.group" version="1.3.2.v20140814-1037"/>
-<unit id="org.eclipse.jdt.feature.group" version="3.10.0.v20140925-0400"/>
-<unit id="org.eclipse.jubula.feature.launch.rcp.feature.group" version="2.3.0.201409170633"/>
-<unit id="org.eclipse.mylyn.docs.intent.markup.feature.feature.group" version="0.9.0.201409040823"/>
-<unit id="org.eclipse.mylyn.gerrit.dashboard.feature.feature.group" version="2.4.0.v20140820-2331"/>
-<unit id="org.eclipse.mylyn.gerrit.feature.feature.group" version="2.4.0.v20140903-1455"/>
-<unit id="org.eclipse.mylyn.git.feature.group" version="1.5.0.v20140702-2223"/>
-<unit id="org.eclipse.mylyn.hudson.feature.group" version="1.5.0.v20140702-2228"/>
-<unit id="org.eclipse.mylyn.java_feature.feature.group" version="3.13.0.v20140819-2236"/>
-<unit id="org.eclipse.mylyn.mft.emf.feature.group" version="0.9.3.I20131108-1210"/>
-<unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="2.2.0.v20140905-1515"/>
-<unit id="org.eclipse.mylyn_feature.feature.group" version="3.13.0.v20140826-1734"/>
-<unit id="org.eclipse.wst.xml_ui.feature.feature.group" version="3.6.1.v201409111852"/>
-<repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="jackson-core-lgpl" version="1.0.1"/>
@@ -331,6 +302,10 @@
 <unit id="org.eclipse.e4.rcp.R441patch.feature.group" version="1.0.0"/>
 <unit id="org.eclipse.rcp.source.feature.group" version="4.4.0.v20140925-0400"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.jdt.feature.group" version="3.10.0.v20140925-0400"/>
+<repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
 </locations>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-8-oracle-x64"/>
