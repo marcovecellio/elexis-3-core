@@ -3,8 +3,8 @@ package ch.elexis.core.ui.propertypage;
 import org.eclipse.core.runtime.IAdaptable;
 import org.eclipse.jface.viewers.ArrayContentProvider;
 import org.eclipse.jface.viewers.StructuredSelection;
-import org.eclipse.nebula.jface.tablecomboviewer.TableComboViewer;
-import org.eclipse.nebula.widgets.tablecombo.TableCombo;
+//import org.eclipse.nebula.jface.tablecomboviewer.TableComboViewer;
+//import org.eclipse.nebula.widgets.tablecombo.TableCombo;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
@@ -23,7 +23,7 @@ public class PatientAddressPage extends PropertyPage implements IWorkbenchProper
 	private Text textStrasse;
 	private Text textPostleitzahl;
 	private Text textOrtschaft;
-	private TableCombo tableCombo;
+//	private TableCombo tableCombo;
 	
 	public PatientAddressPage(){
 		// TODO Auto-generated constructor stub
@@ -63,6 +63,7 @@ public class PatientAddressPage extends PropertyPage implements IWorkbenchProper
 		lblLand.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
 		lblLand.setText("Land");
 		
+		/*
 		TableComboViewer countryComboViewer = new TableComboViewer(comp);
 		tableCombo = countryComboViewer.getTableCombo();
 		tableCombo.setTableWidthPercentage(90);
@@ -73,11 +74,11 @@ public class PatientAddressPage extends PropertyPage implements IWorkbenchProper
 		tableCombo.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		countryComboViewer.setLabelProvider(new CountryComboLabelProvider());
 		countryComboViewer.setContentProvider(new ArrayContentProvider());
+		*/
 		String[] items = new String[] {
 			"CH", "FL", "AT", "DE", "FR", "IT"
 		};
-		countryComboViewer.setInput(items);
-		
+		// countryComboViewer.setInput(items);
 		super.setTitle(pat.getLabel());
 		textStrasse.setText(pat.get(Patient.FLD_STREET));
 		textPostleitzahl.setText(pat.get(Patient.FLD_ZIP));
@@ -85,7 +86,7 @@ public class PatientAddressPage extends PropertyPage implements IWorkbenchProper
 		String country = pat.get(Patient.FLD_COUNTRY).trim();
 		for (int i = 0; i < items.length; i++) {
 			if (country.equalsIgnoreCase(items[i])) {
-				countryComboViewer.setSelection(new StructuredSelection(items[i]), true);
+				// countryComboViewer.setSelection(new StructuredSelection(items[i]), true);
 			}
 		}
 		
@@ -104,7 +105,9 @@ public class PatientAddressPage extends PropertyPage implements IWorkbenchProper
 		};
 		String[] values =
 			{
-				textStrasse.getText(), tableCombo.getText(), textPostleitzahl.getText(),
+				textStrasse.getText(), 
+				// tableCombo.getText(), 
+				textPostleitzahl.getText(),
 				textOrtschaft.getText()
 			};
 		pat.set(fields, values);
