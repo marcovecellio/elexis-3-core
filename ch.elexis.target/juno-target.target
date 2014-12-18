@@ -1102,5 +1102,4 @@
 <plugin id="org.eclipse.core.runtime"/>
 <plugin id="org.eclipse.emf.exporter"/>
 <plugin id="org.hamcrest.core"/>
-</includeBundles>
 </target>
