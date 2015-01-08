@@ -12,42 +12,44 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>com.github.goldin</groupId>
-        <artifactId>properties-maven-plugin</artifactId>
-        <version>0.2.5</version>
-        <executions>
-          <execution>
-            <id>set-properties</id>
-            <phase>validate</phase>
-            <goals>
-              <goal>set-properties</goal>
-            </goals>
-            <configuration>
-              <properties>
-                <property>
-                  <name>versionFromPomViaGroovy</name>
-                  <!-- http://evgeny-goldin.com/wiki/Properties-maven-plugin has a very confusing behaviour:
-                  if you reference project.properties.repo_variant it will always report snapshot as this is default in the parent pom.xml
-                  if your referenc repo_variant it will return the value passed on the command line or (if not specified there) the default-value
-                  Did cost me two hours to find it and to work around!
-                    !-->
-                  <!-- git tag - -contains | grep release | cut -d/ -f2 -->
-                  <value>{{
+        <groupId>org.codehaus.gmaven</groupId>
+        <artifactId>groovy-maven-plugin</artifactId>
+        <version>2.0</version>
+          <executions>
+            <execution>
+              <id>set-properties</id>
+              <phase>validate</phase>
+              <goals>
+                <goal>execute</goal>
+              </goals>
+              <configuration>
+<!--
+if you reference project.properties.repo_variant it will always report snapshot as this is default in the parent pom.xml
+if your referenc repo_variant it will return the value passed on the command line or (if not specified there) the default-value
+Did cost me two hours to find it and to work around!
+!-->
+<!-- git tag - -contains | grep release | cut -d/ -f2 -->
+              <source>
 import java.text.SimpleDateFormat;
-def elexis_version = "${project.version}".replace("-SNAPSHOT", "") + new SimpleDateFormat("'"+repo_variant.substring(0,1).replaceFirst('s','a').replaceFirst('p','r')+"'yyyyMMdd-HHmm").format(Calendar.getInstance().getTime())
-def tags =  "git tag --contains ".execute().text.split("\n")
+String repo_variant = "${repo_variant}" // project.properties.getProperty('repo_variant') always return snapshot
+// println 'repo_variant is ' + repo_variant
+String elexis_version = "${project.version}".replace("-SNAPSHOT", "") + new SimpleDateFormat("'"+repo_variant.substring(0,1).replaceFirst('s','a').replaceFirst('p','r')+"'yyyyMMdd-HHmm").format(Calendar.getInstance().getTime())
+// println 'elexis_version is ' + elexis_version
+String tags =  "git tag --contains ".execute().text.split("\n")
+// println 'tags is ' + tags
 for ( i in tags ) {
+    // println 'i ist ' + i
     if (i ==~/release\/(.*)/ ) {
         elexis_version = (i=~ /release\//).replaceFirst("")
+        // println 'elexis_version is now ' + elexis_version
         break
     }
 }
-elexis_version
-}}</value>
-                </property>
-              </properties>
-            </configuration>
-          </execution>
+                println "versionFromPomViaGroovy is " +  elexis_version + " from version " + project.version + " and repo_variant " +  project.properties.getProperty('repo_variant')
+                project.properties.setProperty('versionFromPomViaGroovy', elexis_version)
+              </source>
+              </configuration>
+            </execution>
         </executions>
       </plugin>
     </plugins>

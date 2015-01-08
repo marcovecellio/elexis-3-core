@@ -263,28 +263,30 @@
 	</properties>
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>com.github.goldin</groupId>
-				<artifactId>properties-maven-plugin</artifactId>
-				<version>0.2.5</version>
-				<executions>
-					<execution>
-						<id>set-properties</id>
-						<phase>validate</phase>
-						<goals>
-							<goal>set-properties</goal>
-						</goals>
-						<configuration>
-							<properties>
-								<property>
-									<name>timestamp_format</name>
-									<value>{{"'" + "${repo_variant}".substring(0,1).replaceFirst('s','a').replaceFirst('^p','r')+"'yyyyMMdd-HHmm" }}</value>
-								</property>
-								</properties>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
+        <plugin>
+        <groupId>org.codehaus.gmaven</groupId>
+        <artifactId>groovy-maven-plugin</artifactId>
+        <version>2.0</version>
+          <executions>
+            <execution>
+              <id>set-properties</id>
+              <phase>validate</phase>
+              <goals>
+                <goal>execute</goal>
+              </goals>
+              <configuration>
+              <!-- for snapshot we want an 'a' << 'b' (beta) << 'r' (prerelease and release) -->
+              <source>
+                import java.text.SimpleDateFormat;
+                String repo_variant = "${repo_variant}" // project.properties.getProperty('repo_variant') always return snapshot
+                String timestamp_format = repo_variant.substring(0,1).replaceFirst('s','a').replaceFirst('^p','r')+"'yyyyMMdd-HHmm"
+                // println 'timestamp_format for repo_variant ' + repo_variant + ' in ' + project.name + ' is: ' + timestamp_format
+                project.properties.setProperty('timestamp_format', timestamp_format)
+              </source>
+              </configuration>
+            </execution>
+        </executions>
+      </plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-plugin </artifactId>
