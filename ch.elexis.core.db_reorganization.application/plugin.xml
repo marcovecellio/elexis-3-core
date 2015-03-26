@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="ch.elexis.core.data.coreOperation">
+      <coreOperation
+            advisor="ch.elexis.core.db_reorganization.application.CoreOperationAdvisor">
+      </coreOperation>
+   </extension>
+   <extension
+         id="DbReorgApplication"
+         name="Elexis Application für die DB-db_reorganization"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="ch.elexis.core.db_reorganization.application.Application">
+         </run>
+      </application>
+   </extension>
+
+</plugin>
